@@ -14,7 +14,7 @@ $featured = new WP_Query($args);
 //start the loop
 while ( $featured->have_posts() ) : $featured->the_post();
 // put your html under here
-Ê?>
+?>
 
 <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
