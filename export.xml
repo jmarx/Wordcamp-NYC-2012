@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/3.3.2" created="2012-05-17 21:28" -->
+<!-- generator="WordPress/3.3.2" created="2012-05-17 21:38" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.1/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>The SuperHero Gazette</title>
 	<link>http://wordcamp.jeffreymarx.net</link>
 	<description>Just another WordPress site</description>
-	<pubDate>Thu, 17 May 2012 21:28:53 +0000</pubDate>
+	<pubDate>Thu, 17 May 2012 21:38:26 +0000</pubDate>
 	<language>en</language>
 	<wp:wxr_version>1.1</wp:wxr_version>
 	<wp:base_site_url>http://wordcamp.jeffreymarx.net</wp:base_site_url>
@@ -384,6 +384,37 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 		<wp:postmeta>
 			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
 			<wp:meta_value><![CDATA[a:6:{s:5:"width";s:3:"400";s:6:"height";s:3:"419";s:14:"hwstring_small";s:22:"height='96' width='91'";s:4:"file";s:21:"2012/05/zod_cl121.png";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:21:"zod_cl121-150x150.png";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:21:"zod_cl121-286x300.png";s:5:"width";s:3:"286";s:6:"height";s:3:"300";}s:14:"post-thumbnail";a:3:{s:4:"file";s:21:"zod_cl121-400x198.png";s:5:"width";s:3:"400";s:6:"height";s:3:"198";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Tom Hardy cast as Bane in Dark Knight Rises</title>
+		<link>http://wordcamp.jeffreymarx.net/tom-hardy-cast-as-bane-in-dark-knight-rises/</link>
+		<pubDate>Thu, 17 May 2012 21:38:10 +0000</pubDate>
+		<dc:creator>jmarx</dc:creator>
+		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=35</guid>
+		<description></description>
+		<content:encoded><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>35</wp:post_id>
+		<wp:post_date>2012-05-17 21:38:10</wp:post_date>
+		<wp:post_date_gmt>2012-05-17 21:38:10</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>tom-hardy-cast-as-bane-in-dark-knight-rises</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="batman"><![CDATA[Batman]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 </channel>
