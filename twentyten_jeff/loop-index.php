@@ -70,7 +70,7 @@ endwhile;
 ?>
 
 <div id="categoryboxes">
-	<div id="batman">
+	<div id="batman" class="thoughtbox">
 		<h4>Batman</h4>
 		<?php
 	// Your parameters
@@ -94,7 +94,7 @@ endwhile;
 ?>
 	&bull; <strong><a href="/category/batman">More Batman</a></strong><br>
 	</div>
-	<div id="superman">
+	<div id="superman" class="thoughtbox">
 		<h4>Superman</h4>
 				<?php
 	// Your parameters
@@ -119,7 +119,7 @@ endwhile;
 	&bull; <strong><a href="/category/superman">More Superman</a></strong><br>
 
 	</div>
-	<div id="spiderman">
+	<div id="spiderman" class="thoughtbox">
 		<h4>Spiderman</h4>
 						<?php
 	// Your parameters

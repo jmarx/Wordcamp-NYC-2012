@@ -1303,6 +1303,26 @@ code {
 
 /* =Special styles 
 -------------------------------------------------------------- */
+#content h2, #content h4 {
+	margin-bottom:2px;
+	padding-bottom:0px;
+}
+
+#categoryboxes div {
+	float:left;
+	display:inline;
+	width:194px;
+	margin-right:10px;
+	margin-bottom:5px;
+}
+
+#categoryboxes div h4{
+	font-size:1em;
+}
+#categoryboxes div a{
+	font-size: 0.7em;
+}
+
 .shadow {
   -moz-box-shadow:    5px 5px 2px 0px #666;
   -webkit-box-shadow: 5px 5px 2px 0px #666;
@@ -1315,13 +1335,16 @@ code {
 	margin: 10px;
 }
 #primary, #secondary{
-	background: #333;
+	background: #000;
 }
 .widget-container{
 	border: 3px solid #333;
 	padding: 10px;
 	margin: 10px;
 	background: #fff;
+}
+.widget-title{
+	font-family: Bangers, cursive;
 }
 
 /* =Print Style
@@ -1409,16 +1432,4 @@ code {
 	.home .sticky {
 		border: none;
 	}
-}
-#content h2, #content h4 {
-	margin-bottom:2px;
-	padding-bottom:0px;
-}
-
-#categoryboxes div {
-	float:left;
-	display:inline;
-	width:200px;
-	margin-right:10px;
-	margin-bottom:5px;
 }
