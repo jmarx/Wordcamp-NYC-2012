@@ -12,6 +12,8 @@ Tags: black, blue, white, two-columns, fixed-width, custom-header, custom-backgr
 
 /* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
 -------------------------------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=News+Cycle:400,700|Poller+One|Bangers);
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -67,11 +69,11 @@ DESCRIPTION: Two-column fixed layout with one sidebar right of content
 
 #container {
 	float: left;
-	margin: 0 -240px 0 0;
+	margin: 20px -240px 0 0;
 	width: 100%;
 }
 #content {
-	margin: 0 280px 0 20px;
+	margin: 0 230px 0 -10px;
 }
 #primary,
 #secondary {
@@ -142,10 +144,10 @@ h3#reply-title,
 .reply,
 .widget-title,
 .wp-caption-text {
-	font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	font-family: "News Cycle", "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
 input[type=submit] {
-	font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	font-family: "News Cycle", "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
 pre {
 	font-family: "Courier 10 Pitch", Courier, monospace;
@@ -154,6 +156,24 @@ code {
 	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 }
 
+h1#site-title, .menu ul li a{
+	font-family: 'Bangers', cursive;
+}
+
+#branding{
+	background: url(images/headers/kirby.png) center left no-repeat;
+	height: 100px;
+}
+h1#site-title{
+}
+
+h1#site-title span{ 
+	display: none;
+}
+
+#site-description, #content h2, #content h3{
+	font-family:'Poller One', cursive;
+}
 
 /* =Structure
 -------------------------------------------------------------- */
@@ -203,7 +223,7 @@ div.menu,
 
 /* Main global 'theme' and typographic styles */
 body {
-	background: #f1f1f1;
+	background: #111;
 }
 body,
 input,
@@ -439,7 +459,7 @@ div.menu li {
 #access ul li.current-menu-ancestor > a,
 #access ul li.current-menu-item > a,
 #access ul li.current-menu-parent > a {
-	color: #fff;
+	color: #f7ff00;
 }
 * html #access ul li.current_page_item a,
 * html #access ul li.current-menu-ancestor a,
@@ -456,7 +476,7 @@ div.menu li {
 #main {
 	clear: both;
 	overflow: hidden;
-	padding: 40px 0 0 0;
+	padding: 0px 0 0 0;
 }
 #content {
 	margin-bottom: 36px;
@@ -505,6 +525,14 @@ div.menu li {
 	color: #000;
 	line-height: 1.5em;
 	margin: 0 0 20px 0;
+}
+#content h1 a,
+#content h2 a,
+#content h3 a,
+#content h4 a,
+#content h5 a,
+#content h6 a{
+	text-decoration: none;
 }
 #content table {
 	border: 1px solid #e7e7e7;
@@ -711,7 +739,10 @@ body.page .edit-link {
 #content .video-player {
 	padding: 0;
 }
-
+#content .featured,
+#content .story{}
+#content .featured{}
+#content .story{}
 
 /* =Asides
 -------------------------------------------------------------- */
@@ -1192,7 +1223,7 @@ h3#reply-title {
 /* Main sidebars */
 #main .widget-area ul {
 	margin-left: 0;
-	padding: 0 20px 0 0;
+	padding: 0 0px 0 0;
 }
 #main .widget-area ul ul {
 	border: none;
@@ -1269,6 +1300,29 @@ code {
 	-webkit-text-size-adjust: none;
 }
 
+
+/* =Special styles 
+-------------------------------------------------------------- */
+.shadow {
+  -moz-box-shadow:    5px 5px 2px 0px #666;
+  -webkit-box-shadow: 5px 5px 2px 0px #666;
+  box-shadow:         5px 5px 2px 0px #666;
+}
+
+.thoughtbox{
+	border: 3px solid #333;
+	padding: 10px;
+	margin: 10px;
+}
+#primary, #secondary{
+	background: #333;
+}
+.widget-container{
+	border: 3px solid #333;
+	padding: 10px;
+	margin: 10px;
+	background: #fff;
+}
 
 /* =Print Style
 -------------------------------------------------------------- */

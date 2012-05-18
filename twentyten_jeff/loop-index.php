@@ -1,5 +1,5 @@
 
-<!-- Loop # 1 start - the featured story -->
+<div class='featured thoughtbox'><!-- Loop # 1 start - the featured story -->
 <?php
 $featured_args = array(
 		'tag' => 'featured',
@@ -23,7 +23,9 @@ while ( $featured->have_posts() ) : $featured->the_post();
 endwhile;
 //end the loop
 ?>
+
 <div style="clear:both">&nbsp;</div>
+</div>
 
 <!-- Loop # 2 start - 3 secondary featured stories -->
 
@@ -53,12 +55,14 @@ while ( $secondaryfeatured->have_posts() ) : $secondaryfeatured ->the_post();
 			}
 	// put your html under here
 	 ?>
+	<div class="story thoughtbox">
 	<div>
 		<?php the_post_thumbnail('thumbnail', array('class' => $align)); ?>
 		<h3 style="display:inline;"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 		<div class="excerpt"><?php the_excerpt(); ?></div>
 	</div>
 	<div style="clear:both; height:3px;">&nbsp;</div>
+	</div>
  <?php
 endwhile;
 //end the loop
