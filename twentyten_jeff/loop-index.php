@@ -88,6 +88,7 @@ endwhile;
 	endwhile;
 	//end the loop
 ?>
+	&bull; <strong><a href="/category/batman">More Batman</a></strong><br>
 	</div>
 	<div id="superman">
 		<h4>Superman</h4>
@@ -111,7 +112,7 @@ endwhile;
 	endwhile;
 	//end the loop
 ?>
-
+	&bull; <strong><a href="/category/superman">More Superman</a></strong><br>
 
 	</div>
 	<div id="spiderman">
@@ -136,6 +137,7 @@ endwhile;
 	endwhile;
 	//end the loop
 ?>
+	&bull; <strong><a href="/category/spiderman">More Spiderman</a></strong><br>
 
 	</div>
 	<div id="ironman"></div>
