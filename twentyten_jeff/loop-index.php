@@ -1,17 +1,14 @@
 
 <!-- Loop # 1 start - the featured story -->
 <?php
-// Your parameters
-$args = array(
-	'tag' => 'featured',
-	'post_status' => 'publish',
-	'posts_per_page' => '1',
-);
+$featured_args = array(
+		'tag' => 'featured',
+		'post_status' => 'publish',
+		'posts_per_page' => '1',
+	);
+	// The class instantiation
+$featured = new WP_Query($featured_args);
 
-// The class instantiation
-$featured = new WP_Query($args);
-
-//start the loop
 while ( $featured->have_posts() ) : $featured->the_post();
 // put your html under here
 ?>
@@ -27,8 +24,6 @@ endwhile;
 //end the loop
 ?>
 <div style="clear:both">&nbsp;</div>
-
-
 
 <!-- Loop # 2 start - 3 secondary featured stories -->
 
@@ -67,11 +62,81 @@ while ( $secondaryfeatured->have_posts() ) : $secondaryfeatured ->the_post();
  <?php
 endwhile;
 //end the loop
+
 ?>
 
 <div id="categoryboxes">
-	<div id="superman"></div>
-	<div id="batman"></div>
-	<div id="spiderman"></div>
+	<div id="batman">
+		<h4>Batman</h4>
+		<?php
+	// Your parameters
+	$batman_args = array(
+		'category_name' => 'batman',
+		'post_status' => 'publish',
+		'posts_per_page' => '3',
+		'tag__not_in' => array( 6,7),
+	);
+	// The class instantiation
+	$batman_query = new WP_Query($batman_args);
+	//start the loop
+	while ( $batman_query->have_posts() ) : $batman_query->the_post();
+	// put your html under here
+?>
+	&bull; <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> <br>
+
+<?php
+	endwhile;
+	//end the loop
+?>
+	</div>
+	<div id="superman">
+		<h4>Superman</h4>
+				<?php
+	// Your parameters
+	$superman_args = array(
+		'category_name' => 'superman',
+		'post_status' => 'publish',
+		'posts_per_page' => '3',
+		'tag__not_in' => array( 6,7),
+	);
+	// The class instantiation
+	$superman_query = new WP_Query($superman_args);
+	//start the loop
+	while ( $superman_query->have_posts() ) : $superman_query->the_post();
+	// put your html under here
+?>
+	&bull; <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> <br>
+
+<?php
+	endwhile;
+	//end the loop
+?>
+
+
+	</div>
+	<div id="spiderman">
+		<h4>Spiderman</h4>
+						<?php
+	// Your parameters
+	$spiderman_args = array(
+		'category_name' => 'spiderman',
+		'post_status' => 'publish',
+		'posts_per_page' => '3',
+		'tag__not_in' => array( 6,7),
+	);
+	// The class instantiation
+	$spiderman_query = new WP_Query($spiderman_args);
+	//start the loop
+	while ( $spiderman_query->have_posts() ) : $spiderman_query->the_post();
+	// put your html under here
+?>
+	&bull; <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> <br>
+
+<?php
+	endwhile;
+	//end the loop
+?>
+
+	</div>
 	<div id="ironman"></div>
 </div>
