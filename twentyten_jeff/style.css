@@ -1360,11 +1360,28 @@ code {
 	margin-bottom:2px;
 	padding-bottom:0px;
 }
-
+div#picoftheday {
+	float:left;
+	display:inline;
+	width:200px;
+	margin-right:10px;
+	margin-left:2px;
+	}
+div#categoryboxes {
+	float:right;
+	display:inline;
+	margin-right:5px;
+	width:420px;
+}
 #categoryboxes div {
 	float:left;
 	display:inline;
 	width:200px;
 	margin-right:10px;
 	margin-bottom:5px;
+}
+.cutline {
+	font-size:12px;
+	line-height:12px;
+
 }

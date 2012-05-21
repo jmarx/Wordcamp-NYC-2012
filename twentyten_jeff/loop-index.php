@@ -1,18 +1,17 @@
 
 <!-- Loop # 1 start - the featured story -->
 <?php
-$featured_args = array(
+	// The class instantiation
+$featured = new WP_Query(
+		array(
 		'tag' => 'featured',
 		'post_status' => 'publish',
 		'posts_per_page' => '1',
-	);
-	// The class instantiation
-$featured = new WP_Query($featured_args);
-
+		)
+			 );
 while ( $featured->have_posts() ) : $featured->the_post();
 // put your html under here
 ?>
-
 <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
 <div><?php the_post_thumbnail('medium', array('class' => 'alignright')); ?></div>
@@ -25,18 +24,17 @@ endwhile;
 ?>
 <div style="clear:both">&nbsp;</div>
 
-<!-- Loop # 2 start - 3 secondary featured stories -->
+<!-- Loop # 2 start - 2 secondary featured stories -->
 
 <?php
-// Your parameters
-$args = array(
+// The class instantiation
+$secondaryfeatured = new WP_Query(
+	array(
 	'tag' => 'featured-secondary',
 	'post_status' => 'publish',
 	'posts_per_page' => '2',
-);
-
-// The class instantiation
-$secondaryfeatured = new WP_Query($args);
+	)
+		 );
 
 //post counter
 $i = 0;
@@ -65,19 +63,45 @@ endwhile;
 
 ?>
 
+<div id="picoftheday">
+<h4>Picture of the day</h4>
+<?php
+	// The class instantiation with arguments
+	$pic_query = new WP_Query(
+		array(
+		'tag' => 'picoftheday',
+		'post_status' => 'publish',
+		'posts_per_page' => '1',
+			)
+		);
+	//start the loop
+	while ( $pic_query ->have_posts() ) : $pic_query ->the_post();
+
+	// put your html under here
+?>
+
+<?php the_post_thumbnail('full'); ?>
+<div class="cutline"><?php the_content(); ?></div>
+
+<?php
+	endwhile;
+	//end the loop
+?>
+</div>
+
 <div id="categoryboxes">
 	<div id="batman">
 		<h4>Batman</h4>
 		<?php
-	// Your parameters
-	$batman_args = array(
+	// The class instantiation with arguments
+	$batman_query = new WP_Query(
+		array(
 		'category_name' => 'batman',
 		'post_status' => 'publish',
 		'posts_per_page' => '3',
 		'tag__not_in' => array( 6,7),
-	);
-	// The class instantiation
-	$batman_query = new WP_Query($batman_args);
+			)
+		);
 	//start the loop
 	while ( $batman_query->have_posts() ) : $batman_query->the_post();
 	// put your html under here
@@ -93,15 +117,14 @@ endwhile;
 	<div id="superman">
 		<h4>Superman</h4>
 				<?php
-	// Your parameters
-	$superman_args = array(
+	// The class instantiation with arguments
+	$superman_query = new WP_Query(array(
 		'category_name' => 'superman',
 		'post_status' => 'publish',
 		'posts_per_page' => '3',
 		'tag__not_in' => array( 6,7),
-	);
-	// The class instantiation
-	$superman_query = new WP_Query($superman_args);
+		)
+		  );
 	//start the loop
 	while ( $superman_query->have_posts() ) : $superman_query->the_post();
 	// put your html under here
@@ -118,15 +141,15 @@ endwhile;
 	<div id="spiderman">
 		<h4>Spiderman</h4>
 						<?php
-	// Your parameters
-	$spiderman_args = array(
+	// The class instantiation with arguments
+	$spiderman_query = new WP_Query(
+		array(
 		'category_name' => 'spiderman',
 		'post_status' => 'publish',
 		'posts_per_page' => '3',
 		'tag__not_in' => array( 6,7),
-	);
-	// The class instantiation
-	$spiderman_query = new WP_Query($spiderman_args);
+		)
+			);
 	//start the loop
 	while ( $spiderman_query->have_posts() ) : $spiderman_query->the_post();
 	// put your html under here
@@ -140,5 +163,30 @@ endwhile;
 	&bull; <strong><a href="/category/spiderman">More Spiderman</a></strong><br>
 
 	</div>
-	<div id="ironman"></div>
+	<div id="spiderman">
+		<h4>Iron Man</h4>
+						<?php
+
+	// The class instantiation with arguments
+	$ironman_args = new WP_Query(
+		array(
+		'category_name' => 'iron-man',
+		'post_status' => 'publish',
+		'posts_per_page' => '3',
+		'tag__not_in' => array( 6,7),
+		)
+	);
+	//start the loop
+	while ( $ironman_args->have_posts() ) : $ironman_args->the_post();
+	// put your html under here
+?>
+	&bull; <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> <br>
+
+<?php
+	endwhile;
+	//end the loop
+?>
+	&bull; <strong><a href="/category/iron-man">More Iron Man</a></strong><br>
+
+	</div>
 </div>
