@@ -1308,6 +1308,12 @@ code {
 	padding-bottom:0px;
 }
 
+#categoryboxes {
+	display:inline;
+	margin-right:5px;
+	width:420px;
+}
+
 #categoryboxes div {
 	float:left;
 	display:inline;
@@ -1321,6 +1327,60 @@ code {
 }
 #categoryboxes div a{
 	font-size: 0.7em;
+}
+
+#categoryboxes #batman{
+	background: #ccc;
+}
+#categoryboxes #batman a{
+	color: #111;
+}
+
+#categoryboxes #black-widow{
+	background: #302d40;
+	color: #bf0b2c;
+}
+#categoryboxes #black-widow a, #categoryboxes #black-widow h4{
+	color: #bf0b2c;	
+}
+
+#categoryboxes #catwoman{
+	background: #666;
+	color: #efefef;
+}
+#categoryboxes #catwoman a{
+	color: #efefef;	
+}
+
+#categoryboxes #ironman{
+	background: #f2bf27;
+}
+#categoryboxes #ironman a{
+	color: #8c0327;
+}
+
+#categoryboxes #spiderman{
+	background: #bf0b2c;
+}
+#categoryboxes #spiderman a{
+	color: #111;
+}
+
+#categoryboxes #superman{
+	background: #2994f2;
+}
+#categoryboxes #superman a{
+	color: #f2e205;
+}
+
+
+
+#picoftheday {
+	float:left;
+	display:inline;
+	width:200px;
+	margin-right:10px;
+	margin-left:2px;
 }
 
 .shadow {
@@ -1346,6 +1406,12 @@ code {
 .widget-title{
 	font-family: Bangers, cursive;
 }
+
+.cutline {
+	font-size:12px;
+	line-height:12px;
+}
+
 
 /* =Print Style
 -------------------------------------------------------------- */
@@ -1432,34 +1498,4 @@ code {
 	.home .sticky {
 		border: none;
 	}
-}
-#content h2, #content h4 {
-	margin-bottom:2px;
-	padding-bottom:0px;
-}
-div#picoftheday {
-	float:left;
-	display:inline;
-	width:200px;
-	margin-right:10px;
-	margin-left:2px;
-	}
-div#categoryboxes {
-	float:right;
-	display:inline;
-	margin-right:5px;
-	width:420px;
-}
-#categoryboxes div {
-	float:left;
-	display:inline;
-	width:200px;
-	margin-right:10px;
-	margin-bottom:5px;
-}
-.cutline {
-	font-size:12px;
-	line-height:12px;
-
->>>>>>> master
 }

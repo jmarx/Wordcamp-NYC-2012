@@ -167,7 +167,7 @@ endwhile;
 	&bull; <strong><a href="/category/spiderman">More Spiderman</a></strong><br>
 
 	</div>
-	<div id="spiderman">
+	<div id="ironman" class="thoughtbox">
 		<h4>Iron Man</h4>
 						<?php
 
@@ -191,6 +191,60 @@ endwhile;
 	//end the loop
 ?>
 	&bull; <strong><a href="/category/iron-man">More Iron Man</a></strong><br>
+
+	</div>
+
+	<div id="catwoman" class="thoughtbox">
+		<h4>Catwoman</h4>
+						<?php
+
+	// The class instantiation with arguments
+	$catwoman_args = new WP_Query(
+		array(
+		'category_name' => 'catwoman',
+		'post_status' => 'publish',
+		'posts_per_page' => '3',
+		'tag__not_in' => array( 6,7),
+		)
+	);
+	//start the loop
+	while ( $catwoman_args->have_posts() ) : $catwoman_args->the_post();
+	// put your html under here
+?>
+	&bull; <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> <br>
+
+<?php
+	endwhile;
+	//end the loop
+?>
+	&bull; <strong><a href="/category/catwoman">More Catwoman</a></strong><br>
+
+	</div>
+
+	<div id="black-widow" class="thoughtbox">
+		<h4>Black Widow</h4>
+						<?php
+
+	// The class instantiation with arguments
+	$blackwidow_args = new WP_Query(
+		array(
+		'category_name' => 'black-widow',
+		'post_status' => 'publish',
+		'posts_per_page' => '3',
+		'tag__not_in' => array( 6,7),
+		)
+	);
+	//start the loop
+	while ( $blackwidow_args->have_posts() ) : $blackwidow_args->the_post();
+	// put your html under here
+?>
+	&bull; <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> <br>
+
+<?php
+	endwhile;
+	//end the loop
+?>
+	&bull; <strong><a href="/category/black-widow">More Black Widow</a></strong><br>
 
 	</div>
 </div>
