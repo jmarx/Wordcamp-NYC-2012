@@ -1,0 +1,274 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Customizing the Custom Loop | by Alexander Sapountzis and Jeff Marx</title>
+    
+    <meta name="description" content="Customizing the Custom Loop" />
+    <meta name="author" content="Alexander Sapountzis" />
+    <meta name="author" content="Jeff Marx" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link href="style.css" rel="stylesheet" />
+    
+    <link rel="../impress.js/shortcut icon" href="favicon.png" />
+    <link rel="../impress.js/apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+
+
+    <div id="overview" class="step" data-x="0" data-y="0" data-scale="10"></div>
+
+
+    <!-- Introduction Slides -->
+    <div id="start" class="step slide" data-x="0" data-y="2000" data-z="0" data-scale="2">
+        <q>Welcome</q>
+        <h1>Customizing the Custom Loop</h1>
+    </div>
+
+    <div id="intro" class="step slide" data-x="0" data-y="2000" data-z="0" data-scale="2" data-rotate-y="90">
+        <div class="left">
+            <q style="margin-top:30px">Alexander <b>Sapountzis</b></q>
+            <span>Worked with WordPress for 4 years</span>
+            <span>Worked at Bloomberg Businessweek</span>
+            <span>He's the one with the beard</span>
+        </div>
+        <div class="right">
+            <q>Jeffery <b>Marx</b></q>
+            <span>Worked with WordPress for 8 years</span>
+            <span>Worked at Gannet Newspapers</span>
+            <span>Snappy Dresser (ladies!)</span>
+        </div>
+    </div>
+
+    <div id="cbs-local" class="step slide" data-x="0" data-y="-500" data-z="1500" data-scale="2" data-rotate-y="90" data-rotate-x="120">
+        <q>What is CBS Local?</q>
+        <span>Network of local sites for news and media, consolidating CBS' media content</span>
+        <ul>
+            <li>Radio</li>
+            <li>TV</li>
+            <li>News</li>
+            <li>Original Content</li>
+        </ul>
+    </div>
+
+
+    <div id="vip" class="step slide" data-x="0" data-y="-500" data-z="-1500" data-scale="2" data-rotate-y="90" data-rotate-x="-120">
+        <q>We use Wordress!</q>
+    </div>
+
+    <!-- Meat and potatos  -->
+
+    <div id="wp-out-of-the-box" class="slide step" data-x="3000" data-y="-3000" data-z="10000" data-scale="2">
+        <q>Done with the five minute install?</q>
+    </div>
+
+    <div id="now-what" class="step" data-x="3000" data-y="-3000" data-z="9000" data-scale="2">
+        <q>.... Now what?</q>
+    </div>
+
+    <div id="next" class="step" class="step"  data-x="3000" data-y="-3000" data-z="8000" data-scale="2">
+        <ul>
+            <li>Featured Posts</li>
+            <li>Category Boxes</li>
+            <li>Cool stuff</li>
+            <li>Not boring!</li>
+        </ul>
+    </div>
+
+
+    <div id="how" class="slide step"  data-x="0" data-y="-5000" data-z="0" data-scale="2" data-rotate="180">
+        <q>How do we do this?</q>
+        <span>(pay attention, this will be on the test)</span>
+    </div>
+
+
+    <div id="global-query" class="slide step"  data-x="0" data-y="-5000" data-z="2000" data-scale="2" data-rotate="180">
+        <q>The Global Query</q>
+        <span>Runs once on every page</span>
+        <span>Returns all relevant posts based on params</span>
+        <ul>
+            <li>Home Page Query returns all posts</li>
+            <li>Category Page Query returns all for that category</li>
+            <li>Single Post Page Query returns a single, lonely post</li>
+        </ul>
+    </div>
+
+
+    <div id="for-free" class="slide step"  data-x="0" data-y="-7000" data-z="2000" data-scale="2" data-rotate="180">
+        <q>WordPress does all this for free</q>
+        <span>...what's the problem? Why bother with custom loops?</span>
+    </div>
+
+    <div id="because" class="step"  data-x="0" data-y="-8000" data-z="2000" data-scale="2" data-rotate="180" data-rotate-x="20">
+        <q>Because you may need to:</q>
+    </div>
+
+    <div class="step"  data-x="0" data-y="-8200" data-z="2000" data-scale="2" data-rotate="180" data-rotate-x="40">
+        <q>Categorize content</q>
+    </div>
+
+    <div class="step"  data-x="0" data-y="-8400" data-z="2000" data-scale="2" data-rotate="180" data-rotate-x="60">
+        <q>use Custom Post Types</q>
+    </div>
+
+    <div class="step"  data-x="0" data-y="-8600" data-z="2000" data-scale="2" data-rotate="180" data-rotate-x="80">
+        <q>not have a boring site</q>
+    </div>
+
+
+    <!-- Loops -->
+
+    <div id="loops" class="step"  data-x="2000" data-y="-500" data-z="2000" data-rotate="-90" data-scale="2">
+        <q>Tools of the trade</q>
+        <span>query_posts()</span>
+        <span>WP_Query</span>
+        <span>get_posts()</span>
+    </div>
+
+    <div id="flush" class="slide step"  data-x="1500" data-y="3000" data-z="4000" data-rotate="90" data-scale="3">
+        <q>WP_Query</q>
+    </div>
+
+
+    <div id="wp-query" class="step"  data-x="1500" data-y="2000" data-z="4000" data-rotate="90" data-scale="2">
+        <ul>
+            <li>Already in use by Global Loop</li>
+            <li>Works in the Background</li>
+            <li>Efficient</li>
+            <li>Safe!</li>
+            <li>High in Fiber</li>
+        </ul>
+    </div>
+
+
+
+    <!-- samples -->
+
+
+
+    <div id="code1" class="step" data-x="-3000" data-y="-3000" data-scale="1">
+        <pre>
+                $featured_args = array(
+                        'tag' => 'featured',
+                        'post_status' => 'publish',
+                        'posts_per_page' => '1',
+                    );
+                    // The class instantiation
+                $featured = new WP_Query($featured_args);
+
+                while ( $featured->have_posts() ) : $featured->the_post();
+                // put your html under here
+
+        </pre>
+    </div>
+
+    <div id="code2" class="step" data-x="-3000" data-y="-2000" data-scale="1">
+        <pre>
+                $featured_args = array(
+                        'tag' => 'featured',
+                        'post_status' => 'publish',
+                        'posts_per_page' => '1',
+                    );
+                    // The class instantiation
+                $featured = new WP_Query($featured_args);
+
+                while ( $featured->have_posts() ) : $featured->the_post();
+                // put your html under here
+
+        </pre>
+    </div>
+
+    <div id="code3" class="step" data-x="-3000" data-y="-1000" data-scale="1">
+        <pre>
+                $featured_args = array(
+                        'tag' => 'featured',
+                        'post_status' => 'publish',
+                        'posts_per_page' => '1',
+                    );
+                    // The class instantiation
+                $featured = new WP_Query($featured_args);
+
+                while ( $featured->have_posts() ) : $featured->the_post();
+                // put your html under here
+
+        </pre>
+    </div>
+
+    <div id="code4" class="step" data-x="-3000" data-y="0" data-scale="1">
+        <pre>
+                $featured_args = array(
+                        'tag' => 'featured',
+                        'post_status' => 'publish',
+                        'posts_per_page' => '1',
+                    );
+                    // The class instantiation
+                $featured = new WP_Query($featured_args);
+
+                while ( $featured->have_posts() ) : $featured->the_post();
+                // put your html under here
+
+        </pre>
+    </div>
+
+
+    <!-- Advanced -->
+
+    <div id="code5" class="step" data-x="-3000" data-y="1000" data-scale="1">
+        <pre>
+                $featured_args = array(
+                        'tag' => 'featured',
+                        'post_status' => 'publish',
+                        'posts_per_page' => '1',
+                    );
+                    // The class instantiation
+                $featured = new WP_Query($featured_args);
+
+                while ( $featured->have_posts() ) : $featured->the_post();
+                // put your html under here
+
+        </pre>
+    </div>
+
+
+    <!-- Performance -->
+
+    <!-- End -->
+
+    <div id="end" class="step" data-x="0" data-y="2000" data-z="0" data-scale="3" data-rotate-y="90">
+        <div class="left">
+            <q>@asapountzis</q>
+        </div>
+        <div class="right">
+            <q>@jeffmarx</q>
+        </div>
+    </div>
+
+
+</div>
+
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<script src="../impress.js/js/impress.js"></script>
+<script>impress().init();</script>
+
+</body></html>
