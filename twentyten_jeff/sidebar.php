@@ -16,16 +16,35 @@
 			<input type="submit" id="searchsubmit" value="Search" />
 			</div>
 			</form></li>
+
 		<li id="recent-posts-2" class="widget-container widget_recent_entries">
-			<h3 class="widget-title">Recent Posts</h3>
+			<h3 class="widget-title">Alex's reviews</h3>
 			<ul>
-				<li><a href="http://wordcamp.jeffreymarx.net/picture-of-the-day/" title="Picture of the day">Picture of the day</a></li>
-				<li><a href="http://wordcamp.jeffreymarx.net/random-iron-man-headline-2/" title="Random Iron Man headline">Random Iron Man headline</a></li>
-				<li><a href="http://wordcamp.jeffreymarx.net/another-random-iron-man-headline/" title="Another Random Iron Man headline">Another Random Iron Man headline</a></li>
-				<li><a href="http://wordcamp.jeffreymarx.net/random-iron-man-headline/" title="Random Iron Man headline">Random Iron Man headline</a></li>
-				<li><a href="http://wordcamp.jeffreymarx.net/another-random-spiderman-headline/" title="Another random Spiderman headline">Another random Spiderman headline</a></li>
+			<?php
+					// The class instantiation with arguments
+					$author_query = new WP_Query(
+						array(
+						'author_name' => 'alex',
+						'post_status' => 'publish',
+						'posts_per_page' => '5',
+							)
+						);
+					//start the loop
+					while ( $author_query ->have_posts() ) : $author_query ->the_post();
+					// put your html under here
+				?>
+				<li><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></li>
+
+					<?php
+					endwhile;
+					//end the loop
+			?>
+
+
+
 			</ul>
 		</li>
+
 		<li id="recent-comments-2" class="widget-container widget_recent_comments">
 			<h3 class="widget-title">Picture of the day</h3>
 					<?php
@@ -39,7 +58,6 @@
 						);
 					//start the loop
 					while ( $pic_query ->have_posts() ) : $pic_query ->the_post();
-
 					// put your html under here
 				?>
 
