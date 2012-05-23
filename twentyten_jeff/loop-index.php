@@ -67,32 +67,6 @@ endwhile;
 
 ?>
 
-<div id="picoftheday">
-<h4>Picture of the day</h4>
-<?php
-	// The class instantiation with arguments
-	$pic_query = new WP_Query(
-		array(
-		'tag' => 'picoftheday',
-		'post_status' => 'publish',
-		'posts_per_page' => '1',
-			)
-		);
-	//start the loop
-	while ( $pic_query ->have_posts() ) : $pic_query ->the_post();
-
-	// put your html under here
-?>
-
-<?php the_post_thumbnail('full'); ?>
-<div class="cutline"><?php the_content(); ?></div>
-
-<?php
-	endwhile;
-	//end the loop
-?>
-</div>
-
 <div id="categoryboxes">
 	<div id="batman" class="thoughtbox">
 		<h4>Batman</h4>
@@ -167,21 +141,21 @@ endwhile;
 	&bull; <strong><a href="/category/spiderman">More Spiderman</a></strong><br>
 
 	</div>
-	<div id="ironman" class="thoughtbox">
-		<h4>Iron Man</h4>
+	<div id="wonderwoman" class="thoughtbox">
+		<h4>Wonder Woman</h4>
 						<?php
 
 	// The class instantiation with arguments
-	$ironman_args = new WP_Query(
+	$wonderwoman_args = new WP_Query(
 		array(
-		'category_name' => 'iron-man',
+		'category_name' => 'wonder-woman',
 		'post_status' => 'publish',
 		'posts_per_page' => '3',
 		'tag__not_in' => array( 6,7),
 		)
 	);
 	//start the loop
-	while ( $ironman_args->have_posts() ) : $ironman_args->the_post();
+	while ( $wonderwoman_args->have_posts() ) : $wonderwoman_args->the_post();
 	// put your html under here
 ?>
 	&bull; <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> <br>
@@ -190,7 +164,7 @@ endwhile;
 	endwhile;
 	//end the loop
 ?>
-	&bull; <strong><a href="/category/iron-man">More Iron Man</a></strong><br>
+	&bull; <strong><a href="/category/wonder-woman">More Wonder Woman</a></strong><br>
 
 	</div>
 
@@ -221,21 +195,21 @@ endwhile;
 
 	</div>
 
-	<div id="black-widow" class="thoughtbox">
-		<h4>Black Widow</h4>
+	<div id="avengers" class="thoughtbox">
+		<h4>Avengers</h4>
 						<?php
 
 	// The class instantiation with arguments
-	$blackwidow_args = new WP_Query(
+	$avengers_args = new WP_Query(
 		array(
-		'category_name' => 'black-widow',
+		'category_name' => 'avengers',
 		'post_status' => 'publish',
 		'posts_per_page' => '3',
 		'tag__not_in' => array( 6,7),
 		)
 	);
 	//start the loop
-	while ( $blackwidow_args->have_posts() ) : $blackwidow_args->the_post();
+	while ( $avengers_args->have_posts() ) : $avengers_args->the_post();
 	// put your html under here
 ?>
 	&bull; <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> <br>
@@ -244,7 +218,7 @@ endwhile;
 	endwhile;
 	//end the loop
 ?>
-	&bull; <strong><a href="/category/black-widow">More Black Widow</a></strong><br>
+	&bull; <strong><a href="/category/avengers">More Avengers</a></strong><br>
 
 	</div>
 </div>

@@ -166,32 +166,32 @@
                         'post_status' => 'publish',
                         'posts_per_page' => '1',
                     );
-                    // The class instantiation
-                $featured = new WP_Query($featured_args);
-
-                while ( $featured->have_posts() ) : $featured->the_post();
-                // put your html under here
-
         </pre>
     </div>
 
     <div id="code2" class="step" data-x="-3000" data-y="-2000" data-scale="1">
         <pre>
-                $featured_args = array(
-                        'tag' => 'featured',
-                        'post_status' => 'publish',
-                        'posts_per_page' => '1',
-                    );
-                    // The class instantiation
-                $featured = new WP_Query($featured_args);
+            while ( $featured->have_posts() ) : $featured->the_post();
+            // put your html under here
+            ?>
+            &lt;h2&gt;&lt;a href="&lt;?php the_permalink(); ?&gt;"&gt;&lt;?php the_title(); ?&gt;&lt;/a&gt;&lt;/h2&gt;
 
-                while ( $featured->have_posts() ) : $featured->the_post();
-                // put your html under here
+            &lt;div&gt;&lt;?php the_post_thumbnail('medium', array('class' => 'alignright')); ?&gt;&lt;/div&gt;
 
+            &lt;div class="excerpt"&gt;&lt;?php the_excerpt(); ?&gt;&lt;/div&gt;
+
+            endwhile;
+            //end the loop
+            ?&gt;
         </pre>
     </div>
 
-    <div id="code3" class="step" data-x="-3000" data-y="-1000" data-scale="1">
+    <div id="featured-story" class="step" data-x="-3000" data-y="-1000" data-scale="1">
+        <q>Featured Posts Results Here</q>
+
+    </div>
+
+    <div id="code3" class="step" data-x="-3000" data-y="0" data-scale="1">
         <pre>
                 $featured_args = array(
                         'tag' => 'featured',

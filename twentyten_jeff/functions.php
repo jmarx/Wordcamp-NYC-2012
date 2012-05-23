@@ -506,3 +506,8 @@ function twentyten_posted_in() {
 	);
 }
 endif;
+
+
+if ( function_exists( 'add_image_size' ) ) { 
+	add_image_size( 'picoftheday-thumb', 175, 9999 ); //300 pixels wide (and unlimited height)
+}

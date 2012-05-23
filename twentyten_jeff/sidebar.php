@@ -41,11 +41,10 @@
 			?>
 
 
-
 			</ul>
 		</li>
 
-		<li id="recent-comments-2" class="widget-container widget_recent_comments">
+		<li id="recent-comments-2" class="picoftheday widget-container widget_recent_comments">
 			<h3 class="widget-title">Picture of the day</h3>
 					<?php
 					// The class instantiation with arguments
@@ -61,7 +60,7 @@
 					// put your html under here
 				?>
 
-				<?php the_post_thumbnail('full'); ?>
+				<?php the_post_thumbnail( 'picoftheday-thumb' ); ?>
 				<div class="cutline"><?php the_content(); ?></div>
 
 				<?php
@@ -72,4 +71,3 @@
 	</ul>
 	</div><!-- #primary .widget-area -->
 
-</div><!-- #main -->

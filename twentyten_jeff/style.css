@@ -73,8 +73,12 @@ DESCRIPTION: Two-column fixed layout with one sidebar right of content
 	width: 100%;
 }
 #content {
+	margin: 0 230px 0 10px;
+}
+body.home #content {
 	margin: 0 230px 0 -10px;
 }
+
 #primary,
 #secondary {
 	float: right;
@@ -187,6 +191,9 @@ div.menu,
 #wrapper {
 	margin: 0 auto;
 	width: 940px;
+}
+#main{
+	margin-bottom: 20px;
 }
 #wrapper {
 	background: #fff;
@@ -1324,20 +1331,29 @@ code {
 
 #categoryboxes div h4{
 	font-size:1em;
+	font-family: "Bangers", cursive;
 }
 #categoryboxes div a{
 	font-size: 0.7em;
 }
 
+#categoryboxes #avengers{
+	background: url(images/icons/avengers.png) no-repeat 180px 6px #256cbf;
+	color: #f2e205;
+}
+#categoryboxes #avengers a, #categoryboxes #avengers h4{
+	color: #f2e205;	
+}
+
 #categoryboxes #batman{
-	background: #ccc;
+	background: url(images/icons/batman.png) no-repeat 180px 6px #ccc;
 }
 #categoryboxes #batman a{
 	color: #111;
 }
 
 #categoryboxes #black-widow{
-	background: #302d40;
+	background: url(images/icons/black-widow.png) no-repeat 180px 6px #302d40;
 	color: #bf0b2c;
 }
 #categoryboxes #black-widow a, #categoryboxes #black-widow h4{
@@ -1345,7 +1361,7 @@ code {
 }
 
 #categoryboxes #catwoman{
-	background: #666;
+	background: url(images/icons/catwoman.png) no-repeat 180px 6px#666;
 	color: #efefef;
 }
 #categoryboxes #catwoman a{
@@ -1353,34 +1369,31 @@ code {
 }
 
 #categoryboxes #ironman{
-	background: #f2bf27;
+	background: url(images/icons/ironman.png) no-repeat 180px 6px #f2bf27;
 }
 #categoryboxes #ironman a{
 	color: #8c0327;
 }
 
 #categoryboxes #spiderman{
-	background: #bf0b2c;
+	background: url(images/icons/spiderman.png) no-repeat 180px 3px #bf0b2c;
 }
 #categoryboxes #spiderman a{
 	color: #111;
 }
 
 #categoryboxes #superman{
-	background: #2994f2;
+	background: url(images/icons/superman.png) no-repeat  180px 2px #2994f2;
 }
 #categoryboxes #superman a{
 	color: #f2e205;
 }
 
-
-
-#picoftheday {
-	float:left;
-	display:inline;
-	width:200px;
-	margin-right:10px;
-	margin-left:2px;
+#categoryboxes #wonderwoman{
+	background: url(images/icons/wonderwoman.png) no-repeat 180px 6px #f2bf27;
+}
+#categoryboxes #wonderwoman a{
+	color: #8c0327;
 }
 
 .shadow {
