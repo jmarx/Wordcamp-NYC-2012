@@ -38,6 +38,7 @@
 					<?php
 					endwhile;
 					//end the loop
+					wp_reset_postdata();
 			?>
 
 
@@ -66,6 +67,7 @@
 				<?php
 					endwhile;
 					//end the loop
+					wp_reset_postdata() ;
 			?>
 		</li>
 
