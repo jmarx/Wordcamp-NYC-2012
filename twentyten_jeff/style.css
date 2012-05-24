@@ -171,7 +171,7 @@ h1#site-title, .menu ul li a{
 h1#site-title{
 }
 
-h1#site-title span{ 
+h1#site-title span{
 	display: none;
 }
 
@@ -1308,7 +1308,7 @@ code {
 }
 
 
-/* =Special styles 
+/* =Special styles
 -------------------------------------------------------------- */
 #content h2, #content h4 {
 	margin-bottom:2px;
@@ -1342,7 +1342,7 @@ code {
 	color: #f2e205;
 }
 #categoryboxes #avengers a, #categoryboxes #avengers h4{
-	color: #f2e205;	
+	color: #f2e205;
 }
 
 #categoryboxes #batman{
@@ -1357,7 +1357,7 @@ code {
 	color: #bf0b2c;
 }
 #categoryboxes #black-widow a, #categoryboxes #black-widow h4{
-	color: #bf0b2c;	
+	color: #bf0b2c;
 }
 
 #categoryboxes #catwoman{
@@ -1365,7 +1365,7 @@ code {
 	color: #efefef;
 }
 #categoryboxes #catwoman a{
-	color: #efefef;	
+	color: #efefef;
 }
 
 #categoryboxes #ironman{
@@ -1414,6 +1414,7 @@ code {
 	border: 3px solid #333;
 	padding: 10px;
 	margin: 10px;
+	margin-top:0px;
 	background: #fff;
 }
 .widget-title{
@@ -1423,6 +1424,10 @@ code {
 .cutline {
 	font-size:12px;
 	line-height:12px;
+}
+#content h2.entry-title {
+	font-size:1em;
+	font-family: "arial";
 }
 
 
