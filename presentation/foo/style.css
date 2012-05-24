@@ -193,6 +193,57 @@ a:focus {
 }
 
 
+#next{
+    background: url(custom-theme.png) no-repeat 500px 0 transparent; 
+    padding: 187px 0;
+    width: 1200px;
+}
+
+#vip{
+    background: url(cbslocal-homepage.png) no-repeat 0 100px transparent; 
+    padding: 340px 0;
+    margin-top: 0px;
+}
+#vip q{
+    position: absolute;
+    top: 0;
+}
+#vip.present q {
+    /*display: inline-block;*/
+    -webkit-transition: 0.5s;
+    -moz-transition:    0.5s;
+    -ms-transition:     0.5s;
+    -o-transition:      0.5s;
+    transition:         0.5s;
+}
+
+#vip.present img.rotating {
+    -webkit-transform: rotate(-10deg);
+    -moz-transform:    rotate(-10deg);
+    -ms-transform:     rotate(-10deg);
+    -o-transform:      rotate(-10deg);
+    transform:         rotate(-10deg);
+
+    -webkit-transition-delay: 0.25s;
+    -moz-transition-delay:    0.25s;
+    -ms-transition-delay:     0.25s;
+    -o-transition-delay:      0.25s;
+    transition-delay:         0.25s;
+}
+
+#vip.present q.scaling {
+    -webkit-transform: scale(1.7);
+    -moz-transform:    scale(1.7);
+    -ms-transform:     scale(1.7);
+    -o-transform:      scale(1.7);
+    transform:         scale(1.7);
+
+    -webkit-transition-delay: 0.5s;
+    -moz-transition-delay:    0.5s;
+    -ms-transition-delay:     0.5s;
+    -o-transition-delay:      0.5s;
+    transition-delay:         0.5s;
+}
 
 
 .hint {
