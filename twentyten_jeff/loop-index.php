@@ -134,7 +134,7 @@ wp_reset_postdata();
 		array(
 			'category_name' => 'spiderman',
 			'post_status' => 'publish',
-			'posts_per_page' => '5',
+			'posts_per_page' => '3',
 			'tag__not_in' => array(
 					get_term_by('slug','featured', 'post_tag')->term_id,
 					get_term_by('slug','featured-secondary', 'post_tag')->term_id
