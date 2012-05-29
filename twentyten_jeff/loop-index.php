@@ -77,10 +77,10 @@ wp_reset_postdata();
 		array(
 			'category_name' => 'batman',
 			'post_status' => 'publish',
-			'posts_per_page' => '5',
+			'posts_per_page' => '3',
 			'tag__not_in' => array(
 					get_term_by('slug','featured', 'post_tag')->term_id,
-					get_term_by('slug','secondary-featured', 'post_tag')->term_id
+					get_term_by('slug','featured-secondary', 'post_tag')->term_id
 				),
 			)
 		);
@@ -108,7 +108,7 @@ wp_reset_postdata();
 			'posts_per_page' => '3',
 			'tag__not_in' => array(
 					get_term_by('slug','featured', 'post_tag')->term_id,
-					get_term_by('slug','secondary-featured', 'post_tag')->term_id
+					get_term_by('slug','featured-secondary', 'post_tag')->term_id
 				),
 			)
 		);
@@ -134,10 +134,10 @@ wp_reset_postdata();
 		array(
 			'category_name' => 'spiderman',
 			'post_status' => 'publish',
-			'posts_per_page' => '3',
+			'posts_per_page' => '5',
 			'tag__not_in' => array(
 					get_term_by('slug','featured', 'post_tag')->term_id,
-					get_term_by('slug','secondary-featured', 'post_tag')->term_id
+					get_term_by('slug','featured-secondary', 'post_tag')->term_id
 				),
 			)
 		);
@@ -158,21 +158,20 @@ wp_reset_postdata();
 	<div id="wonderwoman" class="thoughtbox">
 		<h4>Wonder Woman</h4>
 						<?php
-
 	// The class instantiation with arguments
-	$wonderwoman_args = new WP_Query(
+	$wonderwoman_query = new WP_Query(
 		array(
 			'category_name' => 'wonder-woman',
 			'post_status' => 'publish',
 			'posts_per_page' => '3',
 			'tag__not_in' => array(
 					get_term_by('slug','featured', 'post_tag')->term_id,
-					get_term_by('slug','secondary-featured', 'post_tag')->term_id
+					get_term_by('slug','featured-secondary', 'post_tag')->term_id
 				),
 			)
 		);
 	//start the loop
-	while ( $wonderwoman_args->have_posts() ) : $wonderwoman_args->the_post();
+	while ( $wonderwoman_query->have_posts() ) : $wonderwoman_query->the_post();
 	// put your html under here
 ?>
 	&bull; <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> <br>
@@ -191,19 +190,19 @@ wp_reset_postdata();
 						<?php
 
 	// The class instantiation with arguments
-	$catwoman_args = new WP_Query(
+	$catwoman_query = new WP_Query(
 		array(
 			'category_name' => 'catwoman',
 			'post_status' => 'publish',
 			'posts_per_page' => '3',
 			'tag__not_in' => array(
 					get_term_by('slug','featured', 'post_tag')->term_id,
-					get_term_by('slug','secondary-featured', 'post_tag')->term_id
+					get_term_by('slug','featured-secondary', 'post_tag')->term_id
 				),
 			)
 		);
 	//start the loop
-	while ( $catwoman_args->have_posts() ) : $catwoman_args->the_post();
+	while ( $catwoman_query->have_posts() ) : $catwoman_query->the_post();
 	// put your html under here
 ?>
 	&bull; <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> <br>
@@ -222,19 +221,19 @@ wp_reset_postdata();
 						<?php
 
 	// The class instantiation with arguments
-	$avengers_args = new WP_Query(
+	$avengers_query = new WP_Query(
 		array(
 			'category_name' => 'avengers',
 			'post_status' => 'publish',
 			'posts_per_page' => '3',
 			'tag__not_in' => array(
 					get_term_by('slug','featured', 'post_tag')->term_id,
-					get_term_by('slug','secondary-featured', 'post_tag')->term_id
+					get_term_by('slug','featured-secondary', 'post_tag')->term_id
 				),
 			)
 		);
 	//start the loop
-	while ( $avengers_args->have_posts() ) : $avengers_args->the_post();
+	while ( $avengers_query->have_posts() ) : $avengers_query->the_post();
 	// put your html under here
 ?>
 	&bull; <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> <br>
