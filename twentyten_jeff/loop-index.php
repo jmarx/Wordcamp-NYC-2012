@@ -21,6 +21,7 @@ while ( $featured->have_posts() ) : $featured->the_post();
 <?php
 endwhile;
 //end the loop
+wp_reset_postdata();
 ?>
 
 <div style="clear:both">&nbsp;</div>
@@ -64,7 +65,7 @@ while ( $secondaryfeatured->have_posts() ) : $secondaryfeatured ->the_post();
  <?php
 endwhile;
 //end the loop
-
+wp_reset_postdata();
 ?>
 
 <div id="categoryboxes">
@@ -89,6 +90,7 @@ endwhile;
 <?php
 	endwhile;
 	//end the loop
+	wp_reset_postdata();
 ?>
 	&bull; <strong><a href="/category/batman">More Batman</a></strong><br>
 	</div>
@@ -96,7 +98,8 @@ endwhile;
 		<h4>Superman</h4>
 				<?php
 	// The class instantiation with arguments
-	$superman_query = new WP_Query(array(
+	$superman_query = new WP_Query(
+							array(
 		'category_name' => 'superman',
 		'post_status' => 'publish',
 		'posts_per_page' => '3',
@@ -112,6 +115,7 @@ endwhile;
 <?php
 	endwhile;
 	//end the loop
+	wp_reset_postdata();
 ?>
 	&bull; <strong><a href="/category/superman">More Superman</a></strong><br>
 
@@ -137,6 +141,7 @@ endwhile;
 <?php
 	endwhile;
 	//end the loop
+	wp_reset_postdata();
 ?>
 	&bull; <strong><a href="/category/spiderman">More Spiderman</a></strong><br>
 
@@ -163,6 +168,7 @@ endwhile;
 <?php
 	endwhile;
 	//end the loop
+	wp_reset_postdata();
 ?>
 	&bull; <strong><a href="/category/wonder-woman">More Wonder Woman</a></strong><br>
 
@@ -190,6 +196,7 @@ endwhile;
 <?php
 	endwhile;
 	//end the loop
+	wp_reset_postdata();
 ?>
 	&bull; <strong><a href="/category/catwoman">More Catwoman</a></strong><br>
 
@@ -217,6 +224,7 @@ endwhile;
 <?php
 	endwhile;
 	//end the loop
+	wp_reset_postdata();
 ?>
 	&bull; <strong><a href="/category/avengers">More Avengers</a></strong><br>
 

@@ -38,6 +38,7 @@
 					<?php
 					endwhile;
 					//end the loop
+					wp_reset_postdata();
 			?>
 
 
@@ -66,8 +67,20 @@
 				<?php
 					endwhile;
 					//end the loop
+					wp_reset_postdata();
 			?>
+		</li>
+
+		<li id="recent-posts-2" class="widget-container widget_recent_entries">
+			<h3 class="widget-title">By publisher</h3>
+			<ul>
+
+				<li><a href="/dc">DC</a></li>
+				<li><a href="/marvel">Marvel</a></li>
+
+
+
+			</ul>
 		</li>
 	</ul>
 	</div><!-- #primary .widget-area -->
-
