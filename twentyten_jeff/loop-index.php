@@ -75,10 +75,13 @@ wp_reset_postdata();
 	// The class instantiation with arguments
 	$batman_query = new WP_Query(
 		array(
-		'category_name' => 'batman',
-		'post_status' => 'publish',
-		'posts_per_page' => '3',
-		'tag__not_in' => array( 6,7),
+			'category_name' => 'batman',
+			'post_status' => 'publish',
+			'posts_per_page' => '5',
+			'tag__not_in' => array(
+					get_term_by('slug','featured', 'post_tag')->term_id,
+					get_term_by('slug','secondary-featured', 'post_tag')->term_id
+				),
 			)
 		);
 	//start the loop
@@ -99,13 +102,16 @@ wp_reset_postdata();
 				<?php
 	// The class instantiation with arguments
 	$superman_query = new WP_Query(
-							array(
-		'category_name' => 'superman',
-		'post_status' => 'publish',
-		'posts_per_page' => '3',
-		'tag__not_in' => array( 6,7),
-		)
-		  );
+		array(
+			'category_name' => 'superman',
+			'post_status' => 'publish',
+			'posts_per_page' => '3',
+			'tag__not_in' => array(
+					get_term_by('slug','featured', 'post_tag')->term_id,
+					get_term_by('slug','secondary-featured', 'post_tag')->term_id
+				),
+			)
+		);
 	//start the loop
 	while ( $superman_query->have_posts() ) : $superman_query->the_post();
 	// put your html under here
@@ -126,12 +132,15 @@ wp_reset_postdata();
 	// The class instantiation with arguments
 	$spiderman_query = new WP_Query(
 		array(
-		'category_name' => 'spiderman',
-		'post_status' => 'publish',
-		'posts_per_page' => '3',
-		'tag__not_in' => array( 6,7),
-		)
-			);
+			'category_name' => 'spiderman',
+			'post_status' => 'publish',
+			'posts_per_page' => '3',
+			'tag__not_in' => array(
+					get_term_by('slug','featured', 'post_tag')->term_id,
+					get_term_by('slug','secondary-featured', 'post_tag')->term_id
+				),
+			)
+		);
 	//start the loop
 	while ( $spiderman_query->have_posts() ) : $spiderman_query->the_post();
 	// put your html under here
@@ -153,12 +162,15 @@ wp_reset_postdata();
 	// The class instantiation with arguments
 	$wonderwoman_args = new WP_Query(
 		array(
-		'category_name' => 'wonder-woman',
-		'post_status' => 'publish',
-		'posts_per_page' => '3',
-		'tag__not_in' => array( 6,7),
-		)
-	);
+			'category_name' => 'wonder-woman',
+			'post_status' => 'publish',
+			'posts_per_page' => '3',
+			'tag__not_in' => array(
+					get_term_by('slug','featured', 'post_tag')->term_id,
+					get_term_by('slug','secondary-featured', 'post_tag')->term_id
+				),
+			)
+		);
 	//start the loop
 	while ( $wonderwoman_args->have_posts() ) : $wonderwoman_args->the_post();
 	// put your html under here
@@ -181,12 +193,15 @@ wp_reset_postdata();
 	// The class instantiation with arguments
 	$catwoman_args = new WP_Query(
 		array(
-		'category_name' => 'catwoman',
-		'post_status' => 'publish',
-		'posts_per_page' => '3',
-		'tag__not_in' => array( 6,7),
-		)
-	);
+			'category_name' => 'catwoman',
+			'post_status' => 'publish',
+			'posts_per_page' => '3',
+			'tag__not_in' => array(
+					get_term_by('slug','featured', 'post_tag')->term_id,
+					get_term_by('slug','secondary-featured', 'post_tag')->term_id
+				),
+			)
+		);
 	//start the loop
 	while ( $catwoman_args->have_posts() ) : $catwoman_args->the_post();
 	// put your html under here
@@ -209,12 +224,15 @@ wp_reset_postdata();
 	// The class instantiation with arguments
 	$avengers_args = new WP_Query(
 		array(
-		'category_name' => 'avengers',
-		'post_status' => 'publish',
-		'posts_per_page' => '3',
-		'tag__not_in' => array( 6,7),
-		)
-	);
+			'category_name' => 'avengers',
+			'post_status' => 'publish',
+			'posts_per_page' => '3',
+			'tag__not_in' => array(
+					get_term_by('slug','featured', 'post_tag')->term_id,
+					get_term_by('slug','secondary-featured', 'post_tag')->term_id
+				),
+			)
+		);
 	//start the loop
 	while ( $avengers_args->have_posts() ) : $avengers_args->the_post();
 	// put your html under here
