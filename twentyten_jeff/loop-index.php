@@ -1,7 +1,6 @@
 
 <div class='featured thoughtbox'><!-- Loop # 1 start - the featured story -->
 <?php
-	// The class instantiation
 $featured = new WP_Query(
 		array(
 		'tag' => 'featured',
@@ -9,6 +8,15 @@ $featured = new WP_Query(
 		'posts_per_page' => '1',
 		)
 			 );
+// Create an instance of WP query
+// Pass in an array of arguments, to drill down which content you want
+// execute the while loop
+// have_posts() returns true if your query has results
+// the_post() returns the post datafor each post to populate the template tags
+// Template tags such as the_title() and the_permalink() return post elements to use in your html markup
+// Close loop and resetpostdata()
+
+
 while ( $featured->have_posts() ) : $featured->the_post();
 // put your html under here
 ?>
