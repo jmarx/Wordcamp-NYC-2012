@@ -77,11 +77,7 @@
         <img src="wp2010.png" />
     </div>
 
-    <div id="now-what" class="step" data-x="6000" data-y="-3000" data-z="10000" data-scale="2">
-        <q>.... Now what?</q>
-    </div>
-
-    <div id="next" class="step" class="step"   data-x="6000" data-y="-3000" data-z="10000" data-rotate-x="90" data-scale="2">
+    <div id="now-what" class="step" data-x="3000" data-y="-3000" data-z="10000" data-rotate-x="90" data-scale="2">
         <ul>
             <li>Featured Posts</li>
             <li>Category Boxes</li>
@@ -90,8 +86,7 @@
         </ul>
     </div>
 
-
-    <div id="how" class="slide step"  data-x="0" data-y="-5000" data-z="0" data-scale="2" data-rotate="180">
+    <div id="next" class="slide step" class="step" data-x="6000" data-y="-3000" data-z="10000" data-rotate-x="90" data-scale="2">
         <q>How do we do this?</q>
         <span>(pay attention, this will be on the test)</span>
     </div>
@@ -133,115 +128,41 @@
 
     <!-- Loops -->
 
-    <div id="loops" class="step"  data-x="2000" data-y="-500" data-z="2000" data-rotate="-90" data-scale="2">
+    <div id="loops" class="step slide"  data-x="2000" data-y="-500" data-z="2000" data-rotate="-90" data-scale="2">
         <q>Tools of the trade</q>
-        <span>query_posts()</span>
-        <span>WP_Query</span>
-        <span>get_posts()</span>
-    </div>
-
-    <div id="flush" class="slide step"  data-x="1500" data-y="3000" data-z="4000" data-rotate="90" data-scale="3">
-        <q>WP_Query</q>
-    </div>
-
-
-    <div id="wp-query" class="step"  data-x="1500" data-y="2000" data-z="4000" data-rotate="90" data-scale="2">
         <ul>
-            <li>Already in use by Global Loop</li>
-            <li>Works in the Background</li>
-            <li>Efficient</li>
-            <li>Safe!</li>
-            <li>High in Fiber</li>
+            <li>query_posts()</li>
+            <li>WP_Query</li>
+            <li>get_posts()</li>
         </ul>
     </div>
 
-
-
-    <!-- samples -->
-
-
-
-    <div id="code1" class="step" data-x="-3000" data-y="-3000" data-scale="1">
-        <pre>
-                $featured_args = array(
-                        'tag' => 'featured',
-                        'post_status' => 'publish',
-                        'posts_per_page' => '1',
-                    );
-        </pre>
+    <div id="query_posts" class="slide step" data-x="2000" data-y="-1500" data-z="2000" data-rotate-y="-90" data-scale="2">
+        <q>Query_posts()</q>
+        <ul>
+            <li>Modifies global query (That's a bad thing)</li>
+            <li>Can cause unpredictable behavior</li>
+            <li>Ignore tutorials that endorse this function</li>
+        </ul>
     </div>
 
-    <div id="code2" class="step" data-x="-3000" data-y="-2000" data-scale="1">
-        <pre>
-            while ( $featured->have_posts() ) : $featured->the_post();
-            // put your html under here
-            ?>
-            &lt;h2&gt;&lt;a href="&lt;?php the_permalink(); ?&gt;"&gt;&lt;?php the_title(); ?&gt;&lt;/a&gt;&lt;/h2&gt;
-
-            &lt;div&gt;&lt;?php the_post_thumbnail('medium', array('class' => 'alignright')); ?&gt;&lt;/div&gt;
-
-            &lt;div class="excerpt"&gt;&lt;?php the_excerpt(); ?&gt;&lt;/div&gt;
-
-            endwhile;
-            //end the loop
-            ?&gt;
-        </pre>
+    <div id="get_posts" class="slide step" data-x="2000" data-y="1500" data-z="2000" data-rotate-y="-90" data-scale="2">
+        <q>Get_posts()</q>
+        <ul>
+            <li>Safer but not ideal</li>
+            <li>Limited - Not as powerful or useful</li>
+            <li>Some Template Tags may not work</li>
+        </ul>
     </div>
 
-    <div id="featured-story" class="step" data-x="-3000" data-y="-1000" data-scale="1">
-        <q>Featured Posts Results Here</q>
-
-    </div>
-
-    <div id="code3" class="step" data-x="-3000" data-y="0" data-scale="1">
-        <pre>
-                $featured_args = array(
-                        'tag' => 'featured',
-                        'post_status' => 'publish',
-                        'posts_per_page' => '1',
-                    );
-                    // The class instantiation
-                $featured = new WP_Query($featured_args);
-
-                while ( $featured->have_posts() ) : $featured->the_post();
-                // put your html under here
-
-        </pre>
-    </div>
-
-    <div id="code4" class="step" data-x="-3000" data-y="0" data-scale="1">
-        <pre>
-                $featured_args = array(
-                        'tag' => 'featured',
-                        'post_status' => 'publish',
-                        'posts_per_page' => '1',
-                    );
-                    // The class instantiation
-                $featured = new WP_Query($featured_args);
-
-                while ( $featured->have_posts() ) : $featured->the_post();
-                // put your html under here
-
-        </pre>
-    </div>
-
-
-    <!-- Advanced -->
-
-    <div id="code5" class="step" data-x="-3000" data-y="1000" data-scale="1">
-        <pre>
-                $featured_args = array(
-                        'tag' => 'featured',
-                        'post_status' => 'publish',
-                        'posts_per_page' => '1',
-                    );
-                    // The class instantiation
-                $featured = new WP_Query($featured_args);
-
-                while ( $featured->have_posts() ) : $featured->the_post();
-                // put your html under here
-
-        </pre>
+    <div id="wp-query" class="slide step" data-x="5000" data-y="0" data-z="2000" data-rotate-y="-90" data-rotate-z="90" data-scale="2">
+        <q>WP_Query</q>
+        <ul>
+            <li>Returns everything you need</li>
+            <li>Template tags will work</li>
+            <li>Plays nice with global query</li>
+            <li>High in fiber</li>
+        </ul>
     </div>
 
 

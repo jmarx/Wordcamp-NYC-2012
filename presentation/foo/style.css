@@ -193,10 +193,19 @@ a:focus {
 }
 
 
-#next{
+#now-what{
     background: url(custom-theme.png) no-repeat 500px 0 transparent; 
-    padding: 187px 0;
+    padding: 165px 0;
     width: 1200px;
+}
+#now-what q{
+    width: 425px;
+    display: block;
+    text-align: right;
+}
+
+#next{
+
 }
 
 #vip{
