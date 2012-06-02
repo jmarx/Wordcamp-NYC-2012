@@ -29,6 +29,15 @@
 						'posts_per_page' => '5',
 							)
 						);
+					/*
+					 - Gets three stories based on a specific category name which is passed into the 'category_name' parameter
+					- Use 'tag__not_in' parameter to exclude posts with feature and featured-secondary tag.
+					   But this argument selects an array of tag ids, not names. So we need to use the get_term_by function to extract the tag id, using the name.
+					- Template tags used: the_permalink() and  the_title()
+					*/
+
+
+
 					//start the loop
 					while ( $author_query ->have_posts() ) : $author_query ->the_post();
 					// put your html under here
@@ -56,6 +65,13 @@
 						'posts_per_page' => '1',
 							)
 						);
+
+					/*
+					-  Return 1 post which acts as nothing more than a placeholder for our picture of the day. Use 'picoftheday' tag.
+					- Template tags used: the_permalink() and  the_post_thumbnail(), the_content()
+					- the_post_thumbnail() has a custom size defined in functions.php
+					- put the cutline in the the_content() instead of the_excerpt(), which in a lot of themes have 'continue reading' type links attached to it.
+					*/
 					//start the loop
 					while ( $pic_query ->have_posts() ) : $pic_query ->the_post();
 					// put your html under here
