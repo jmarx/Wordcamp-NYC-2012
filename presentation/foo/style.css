@@ -164,6 +164,15 @@ a:focus {
     white-space: nowrap;
 }
 
+.slide .links{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.slide .links a{
+    font-size: 0.7em;
+    display: block;
+}
 
 
 #intro .right, 
