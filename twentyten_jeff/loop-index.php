@@ -1,6 +1,8 @@
 
 <div class='featured thoughtbox'><!-- Loop # 1 start - the featured story -->
 <?php
+// Create an instance of WP query
+// Pass in an array of arguments, to drill down which content you want
 $featured = new WP_Query(
 		array(
 		'tag' => 'featured',
@@ -8,14 +10,13 @@ $featured = new WP_Query(
 		'posts_per_page' => '1',
 		)
 			 );
-// Create an instance of WP query
-// Pass in an array of arguments, to drill down which content you want
-// execute the while loop
-// have_posts() returns true if your query has results
-// the_post() returns the post datafor each post to populate the template tags
-// Template tags such as the_title() and the_permalink() return post elements to use in your html markup
-// Close loop and resetpostdata()
-
+/*
+- Use 'featured tag' to pull in top story
+- post_status should almost always be set to publish.
+- posts per page is set to 1 so we're only returning one post in this case.
+- Using a large image aligned to the right so the copy can sit on the left.
+- template tags used: the_permalink, the_title, the_post_thumbnail, the_excerpt
+*/
 
 while ( $featured->have_posts() ) : $featured->the_post();
 // put your html under here
@@ -35,6 +36,9 @@ wp_reset_postdata();
 <div style="clear:both">&nbsp;</div>
 </div>
 
+
+
+
 <!-- Loop # 2 start - 2 secondary featured stories -->
 
 <?php
@@ -46,6 +50,11 @@ $secondaryfeatured = new WP_Query(
 	'posts_per_page' => '2',
 	)
 		 );
+
+// - Pulling in 2 secondary stories to sit underneath the lead story using the tag of 'featured-secondary'
+// - setting a post counter so we can alternate the photo from the left(if odd number) or the right(if even) using that counter on each slide
+// - Using a smaller photo so it doesn't visually overshadow the main story's photo
+// - template tags used: the_permalink, the_title, the_post_thumbnail, the_excerpt
 
 //post counter
 $i = 0;
@@ -149,6 +158,10 @@ wp_reset_postdata();
 				),
 			)
 		);
+// - Gets three stories based on a specific category name which is passed into the 'category_name' parameter
+// - Use 'tag__not_in' parameter to exclude posts with feature and featured-secondary tag. But this argument selects an array of tag ids, not names. So // - we need to use the get_term_by function to extract the tag id, using the name.
+// - Template tags used: the_permalink() and  the_title()
+
 	//start the loop
 	while ( $spiderman_query->have_posts() ) : $spiderman_query->the_post();
 	// put your html under here
