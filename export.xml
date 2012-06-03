@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/3.3.2" created="2012-05-29 17:01" -->
+<!-- generator="WordPress/3.3.2" created="2012-06-03 14:53" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.1/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -26,49 +26,83 @@
 >
 
 <channel>
-	<title>The SuperHero Gazette</title>
-	<link>http://wordcamp.jeffreymarx.net</link>
+	<title>SuperHero Gazette</title>
+	<link>http://localhost:8888/wordcamp</link>
 	<description>Just another WordPress site</description>
-	<pubDate>Tue, 29 May 2012 17:01:57 +0000</pubDate>
+	<pubDate>Sun, 03 Jun 2012 14:53:02 +0000</pubDate>
 	<language>en</language>
 	<wp:wxr_version>1.1</wp:wxr_version>
-	<wp:base_site_url>http://wordcamp.jeffreymarx.net</wp:base_site_url>
-	<wp:base_blog_url>http://wordcamp.jeffreymarx.net</wp:base_blog_url>
+	<wp:base_site_url>http://localhost:8888/wordcamp</wp:base_site_url>
+	<wp:base_blog_url>http://localhost:8888/wordcamp</wp:base_blog_url>
 
 	<wp:author><wp:author_id>1</wp:author_id><wp:author_login>jmarx</wp:author_login><wp:author_email>jeffrey_marx@yahoo.com</wp:author_email><wp:author_display_name><![CDATA[jmarx]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
-	<wp:author><wp:author_id>2</wp:author_id><wp:author_login>Alex</wp:author_login><wp:author_email>alexander.sapountzis@gmail.com</wp:author_email><wp:author_display_name><![CDATA[Alex]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
+	<wp:author><wp:author_id>2</wp:author_id><wp:author_login>Alex</wp:author_login><wp:author_email>alex@alex.com</wp:author_email><wp:author_display_name><![CDATA[Alex]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 
-	<wp:category><wp:term_id>13</wp:term_id><wp:category_nicename>avengers</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Avengers]]></wp:cat_name></wp:category>
+	<wp:category><wp:term_id>12</wp:term_id><wp:category_nicename>avengers</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Avengers]]></wp:cat_name></wp:category>
 	<wp:category><wp:term_id>3</wp:term_id><wp:category_nicename>batman</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Batman]]></wp:cat_name></wp:category>
-	<wp:category><wp:term_id>14</wp:term_id><wp:category_nicename>catwoman</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Catwoman]]></wp:cat_name></wp:category>
-	<wp:category><wp:term_id>8</wp:term_id><wp:category_nicename>green-lantern</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Green Lantern]]></wp:cat_name></wp:category>
-	<wp:category><wp:term_id>10</wp:term_id><wp:category_nicename>hulk</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Hulk]]></wp:cat_name></wp:category>
-	<wp:category><wp:term_id>9</wp:term_id><wp:category_nicename>iron-man</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Iron Man]]></wp:cat_name></wp:category>
-	<wp:category><wp:term_id>5</wp:term_id><wp:category_nicename>spiderman</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Spiderman]]></wp:cat_name></wp:category>
-	<wp:category><wp:term_id>4</wp:term_id><wp:category_nicename>superman</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Superman]]></wp:cat_name></wp:category>
+	<wp:category><wp:term_id>13</wp:term_id><wp:category_nicename>catwoman</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Catwoman]]></wp:cat_name></wp:category>
+	<wp:category><wp:term_id>4</wp:term_id><wp:category_nicename>green-lantern</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Green Lantern]]></wp:cat_name></wp:category>
+	<wp:category><wp:term_id>5</wp:term_id><wp:category_nicename>hulk</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Hulk]]></wp:cat_name></wp:category>
+	<wp:category><wp:term_id>6</wp:term_id><wp:category_nicename>iron-man</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Iron Man]]></wp:cat_name></wp:category>
+	<wp:category><wp:term_id>7</wp:term_id><wp:category_nicename>spiderman</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Spiderman]]></wp:cat_name></wp:category>
+	<wp:category><wp:term_id>8</wp:term_id><wp:category_nicename>superman</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Superman]]></wp:cat_name></wp:category>
 	<wp:category><wp:term_id>1</wp:term_id><wp:category_nicename>uncategorized</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Uncategorized]]></wp:cat_name></wp:category>
-	<wp:category><wp:term_id>12</wp:term_id><wp:category_nicename>wonder-woman</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Wonder woman]]></wp:cat_name></wp:category>
-	<wp:tag><wp:term_id>6</wp:term_id><wp:tag_slug>featured</wp:tag_slug><wp:tag_name><![CDATA[Featured]]></wp:tag_name></wp:tag>
-	<wp:tag><wp:term_id>7</wp:term_id><wp:tag_slug>featured-secondary</wp:tag_slug><wp:tag_name><![CDATA[Featured secondary]]></wp:tag_name></wp:tag>
+	<wp:category><wp:term_id>14</wp:term_id><wp:category_nicename>wonder-woman</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Wonder woman]]></wp:cat_name></wp:category>
+	<wp:tag><wp:term_id>9</wp:term_id><wp:tag_slug>featured</wp:tag_slug><wp:tag_name><![CDATA[Featured]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>10</wp:term_id><wp:tag_slug>featured-secondary</wp:tag_slug><wp:tag_name><![CDATA[Featured secondary]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>11</wp:term_id><wp:tag_slug>picoftheday</wp:tag_slug><wp:tag_name><![CDATA[picoftheday]]></wp:tag_name></wp:tag>
 
 	<generator>http://wordpress.org/?v=3.3.2</generator>
 
 	<item>
+		<title>Sample Page</title>
+		<link>http://localhost:8888/wordcamp/sample-page/</link>
+		<pubDate>Sat, 19 May 2012 01:05:02 +0000</pubDate>
+		<dc:creator>jmarx</dc:creator>
+		<guid isPermaLink="false">http://localhost:8888/wordcamp/?page_id=2</guid>
+		<description></description>
+		<content:encoded><![CDATA[This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:
+
+<blockquote>Hi there! I'm a bike messenger by day, aspiring actor by night, and this is my blog. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin' caught in the rain.)</blockquote>
+
+...or something like this:
+
+<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickies to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>
+
+As a new WordPress user, you should go to <a href="http://localhost:8888/wordcamp/wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun!]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2</wp:post_id>
+		<wp:post_date>2012-05-19 01:05:02</wp:post_date>
+		<wp:post_date_gmt>2012-05-19 01:05:02</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>sample-page</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 		<title>Hello world!</title>
-		<link>http://wordcamp.jeffreymarx.net/hello-world/</link>
+		<link>http://localhost:8888/wordcamp/hello-world-2/</link>
 		<pubDate>Wed, 16 May 2012 16:04:35 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
 		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=1</guid>
 		<description></description>
 		<content:encoded><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1</wp:post_id>
+		<wp:post_id>5</wp:post_id>
 		<wp:post_date>2012-05-16 16:04:35</wp:post_date>
 		<wp:post_date_gmt>2012-05-16 16:04:35</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>hello-world</wp:post_name>
+		<wp:post_name>hello-world-2</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -77,7 +111,7 @@
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
 		<wp:comment>
-			<wp:comment_id>1</wp:comment_id>
+			<wp:comment_id>2</wp:comment_id>
 			<wp:comment_author><![CDATA[Mr WordPress]]></wp:comment_author>
 			<wp:comment_author_email></wp:comment_author_email>
 			<wp:comment_author_url>http://wordpress.org/</wp:comment_author_url>
@@ -93,7 +127,7 @@
 	</item>
 	<item>
 		<title>Sample Page</title>
-		<link>http://wordcamp.jeffreymarx.net/sample-page/</link>
+		<link>http://localhost:8888/wordcamp/sample-page-2/</link>
 		<pubDate>Wed, 16 May 2012 16:04:35 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
 		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?page_id=2</guid>
@@ -108,18 +142,26 @@
 
 As a new WordPress user, you should go to <a href="http://wordcamp.jeffreymarx.net/wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun!]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>2</wp:post_id>
+		<wp:post_id>6</wp:post_id>
 		<wp:post_date>2012-05-16 16:04:35</wp:post_date>
 		<wp:post_date_gmt>2012-05-16 16:04:35</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>sample-page</wp:post_name>
-		<wp:status>trash</wp:status>
+		<wp:post_name>sample-page-2</wp:post_name>
+		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type>page</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
 			<wp:meta_value><![CDATA[default]]></wp:meta_value>
@@ -135,10 +177,10 @@ As a new WordPress user, you should go to <a href="http://wordcamp.jeffreymarx.n
 	</item>
 	<item>
 		<title>christian-bale-batman</title>
-		<link>http://wordcamp.jeffreymarx.net/dark-knight-rises-to-hit-theaters-in-june/christian-bale-batman/</link>
+		<link>http://localhost:8888/wordcamp/dark-knight-rises-to-hit-theaters-in-june/christian-bale-batman/</link>
 		<pubDate>Wed, 16 May 2012 21:11:40 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
-		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/wp-content/uploads/2012/05/christian-bale-batman.jpg</guid>
+		<guid isPermaLink="false">http://localhost:8888/wordcamp/wp-content/uploads/2012/05/christian-bale-batman.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -149,27 +191,27 @@ As a new WordPress user, you should go to <a href="http://wordcamp.jeffreymarx.n
 		<wp:ping_status>open</wp:ping_status>
 		<wp:post_name>christian-bale-batman</wp:post_name>
 		<wp:status>inherit</wp:status>
-		<wp:post_parent>4</wp:post_parent>
+		<wp:post_parent>7</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://wordcamp.jeffreymarx.net/wp-content/uploads/2012/05/christian-bale-batman.jpg</wp:attachment_url>
+		<wp:attachment_url>http://localhost:8888/wordcamp/wp-content/uploads/2012/05/christian-bale-batman.jpg</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2012/05/christian-bale-batman.jpg]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
-			<wp:meta_value><![CDATA[a:6:{s:5:"width";s:3:"430";s:6:"height";s:3:"305";s:14:"hwstring_small";s:23:"height='90' width='128'";s:4:"file";s:33:"2012/05/christian-bale-batman.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:33:"christian-bale-batman-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:33:"christian-bale-batman-300x212.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"212";}s:14:"post-thumbnail";a:3:{s:4:"file";s:33:"christian-bale-batman-430x198.jpg";s:5:"width";s:3:"430";s:6:"height";s:3:"198";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:6:{s:5:"width";s:3:"430";s:6:"height";s:3:"305";s:14:"hwstring_small";s:23:"height='90' width='128'";s:4:"file";s:33:"2012/05/christian-bale-batman.jpg";s:5:"sizes";a:5:{s:9:"thumbnail";a:3:{s:4:"file";s:33:"christian-bale-batman-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:33:"christian-bale-batman-300x212.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"212";}s:14:"post-thumbnail";a:3:{s:4:"file";s:33:"christian-bale-batman-430x288.jpg";s:5:"width";s:3:"430";s:6:"height";s:3:"288";}s:13:"large-feature";a:3:{s:4:"file";s:33:"christian-bale-batman-430x288.jpg";s:5:"width";s:3:"430";s:6:"height";s:3:"288";}s:13:"small-feature";a:3:{s:4:"file";s:33:"christian-bale-batman-422x300.jpg";s:5:"width";s:3:"422";s:6:"height";s:3:"300";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>the_amazing_spider-man_andrew-garfield</title>
-		<link>http://wordcamp.jeffreymarx.net/the-social-networks-andrew-garfield-to-play-spiderman-in-reboot/the_amazing_spider-man_andrew-garfield/</link>
+		<link>http://localhost:8888/wordcamp/the-social-networks-andrew-garfield-to-play-spiderman-in-reboot/the_amazing_spider-man_andrew-garfield/</link>
 		<pubDate>Thu, 17 May 2012 18:20:26 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
-		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/wp-content/uploads/2012/05/the_amazing_spider-man_andrew-garfield.jpg</guid>
+		<guid isPermaLink="false">http://localhost:8888/wordcamp/wp-content/uploads/2012/05/the_amazing_spider-man_andrew-garfield.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -185,22 +227,22 @@ As a new WordPress user, you should go to <a href="http://wordcamp.jeffreymarx.n
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://wordcamp.jeffreymarx.net/wp-content/uploads/2012/05/the_amazing_spider-man_andrew-garfield.jpg</wp:attachment_url>
+		<wp:attachment_url>http://localhost:8888/wordcamp/wp-content/uploads/2012/05/the_amazing_spider-man_andrew-garfield.jpg</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2012/05/the_amazing_spider-man_andrew-garfield.jpg]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
-			<wp:meta_value><![CDATA[a:6:{s:5:"width";s:3:"825";s:6:"height";s:3:"548";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:50:"2012/05/the_amazing_spider-man_andrew-garfield.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:50:"the_amazing_spider-man_andrew-garfield-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:50:"the_amazing_spider-man_andrew-garfield-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:14:"post-thumbnail";a:3:{s:4:"file";s:50:"the_amazing_spider-man_andrew-garfield-825x198.jpg";s:5:"width";s:3:"825";s:6:"height";s:3:"198";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:6:{s:5:"width";s:3:"825";s:6:"height";s:3:"548";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:50:"2012/05/the_amazing_spider-man_andrew-garfield.jpg";s:5:"sizes";a:5:{s:9:"thumbnail";a:3:{s:4:"file";s:50:"the_amazing_spider-man_andrew-garfield-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:50:"the_amazing_spider-man_andrew-garfield-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:14:"post-thumbnail";a:3:{s:4:"file";s:50:"the_amazing_spider-man_andrew-garfield-825x288.jpg";s:5:"width";s:3:"825";s:6:"height";s:3:"288";}s:13:"large-feature";a:3:{s:4:"file";s:50:"the_amazing_spider-man_andrew-garfield-825x288.jpg";s:5:"width";s:3:"825";s:6:"height";s:3:"288";}s:13:"small-feature";a:3:{s:4:"file";s:50:"the_amazing_spider-man_andrew-garfield-451x300.jpg";s:5:"width";s:3:"451";s:6:"height";s:3:"300";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>the_amazing_spider-man_andrew-garfield</title>
-		<link>http://wordcamp.jeffreymarx.net/the-social-networks-andrew-garfield-to-play-spiderman-in-reboot/the_amazing_spider-man_andrew-garfield-2/</link>
+		<link>http://localhost:8888/wordcamp/the-social-networks-andrew-garfield-to-play-spiderman-in-reboot/the_amazing_spider-man_andrew-garfield-2/</link>
 		<pubDate>Thu, 17 May 2012 18:22:36 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
-		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/wp-content/uploads/2012/05/the_amazing_spider-man_andrew-garfield.png</guid>
+		<guid isPermaLink="false">http://localhost:8888/wordcamp/wp-content/uploads/2012/05/the_amazing_spider-man_andrew-garfield.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -216,22 +258,68 @@ As a new WordPress user, you should go to <a href="http://wordcamp.jeffreymarx.n
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://wordcamp.jeffreymarx.net/wp-content/uploads/2012/05/the_amazing_spider-man_andrew-garfield.png</wp:attachment_url>
+		<wp:attachment_url>http://localhost:8888/wordcamp/wp-content/uploads/2012/05/the_amazing_spider-man_andrew-garfield.png</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2012/05/the_amazing_spider-man_andrew-garfield.png]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
-			<wp:meta_value><![CDATA[a:6:{s:5:"width";s:3:"400";s:6:"height";s:3:"348";s:14:"hwstring_small";s:23:"height='96' width='110'";s:4:"file";s:50:"2012/05/the_amazing_spider-man_andrew-garfield.png";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:50:"the_amazing_spider-man_andrew-garfield-150x150.png";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:50:"the_amazing_spider-man_andrew-garfield-300x261.png";s:5:"width";s:3:"300";s:6:"height";s:3:"261";}s:14:"post-thumbnail";a:3:{s:4:"file";s:50:"the_amazing_spider-man_andrew-garfield-400x198.png";s:5:"width";s:3:"400";s:6:"height";s:3:"198";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:6:{s:5:"width";s:3:"400";s:6:"height";s:3:"348";s:14:"hwstring_small";s:23:"height='96' width='110'";s:4:"file";s:50:"2012/05/the_amazing_spider-man_andrew-garfield.png";s:5:"sizes";a:5:{s:9:"thumbnail";a:3:{s:4:"file";s:50:"the_amazing_spider-man_andrew-garfield-150x150.png";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:50:"the_amazing_spider-man_andrew-garfield-300x261.png";s:5:"width";s:3:"300";s:6:"height";s:3:"261";}s:14:"post-thumbnail";a:3:{s:4:"file";s:50:"the_amazing_spider-man_andrew-garfield-400x288.png";s:5:"width";s:3:"400";s:6:"height";s:3:"288";}s:13:"large-feature";a:3:{s:4:"file";s:50:"the_amazing_spider-man_andrew-garfield-400x288.png";s:5:"width";s:3:"400";s:6:"height";s:3:"288";}s:13:"small-feature";a:3:{s:4:"file";s:50:"the_amazing_spider-man_andrew-garfield-344x300.png";s:5:"width";s:3:"344";s:6:"height";s:3:"300";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Michael Shannon cast as General Zod in &#039;Man of Steel&#039;</title>
+		<link>http://localhost:8888/wordcamp/michael-shannon-cast-as-general-zod-in-man-of-steel/</link>
+		<pubDate>Thu, 17 May 2012 18:54:26 +0000</pubDate>
+		<dc:creator>jmarx</dc:creator>
+		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=27</guid>
+		<description></description>
+		<content:encoded><![CDATA[<a href="http://localhost:8888/wordcamp/wp-content/uploads/2012/05/zod_cl121.png"><img class="alignright size-medium wp-image-32" title="zod_cl12" src="http://localhost:8888/wordcamp/wp-content/uploads/2012/05/zod_cl121-286x300.png" alt="" width="286" height="300" /></a>Boardwalk Empire's disgraced Atlantic City Prohibition Agent will leave New Jersey in favor of Krypton when he dons the role of the legendary outlaw alien general. 'Man Of Steel' hits theaters in June of 2013.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+&nbsp;
+
+&nbsp;]]></content:encoded>
+		<excerpt:encoded><![CDATA[Boardwalk Empire's disgraced Atlantic City Prohibition Agent will leave New Jersey in favor of Krypton when he dons the role of the legendary outlaw alien general. 'Man Of Steel' hits theaters in June of 2013.]]></excerpt:encoded>
+		<wp:post_id>27</wp:post_id>
+		<wp:post_date>2012-05-17 18:54:26</wp:post_date>
+		<wp:post_date_gmt>2012-05-17 18:54:26</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>michael-shannon-cast-as-general-zod-in-man-of-steel</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="featured-secondary"><![CDATA[Featured secondary]]></category>
+		<category domain="category" nicename="superman"><![CDATA[Superman]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[32]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[32]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>zod_cl12</title>
-		<link>http://wordcamp.jeffreymarx.net/michael-shannon-cast-as-general-zod-in-man-of-steel/zod_cl12/</link>
+		<link>http://localhost:8888/wordcamp/michael-shannon-cast-as-general-zod-in-man-of-steel/zod_cl12/</link>
 		<pubDate>Thu, 17 May 2012 18:57:05 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
-		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/wp-content/uploads/2012/05/zod_cl12.png</guid>
+		<guid isPermaLink="false">http://localhost:8888/wordcamp/wp-content/uploads/2012/05/zod_cl12.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -247,22 +335,22 @@ As a new WordPress user, you should go to <a href="http://wordcamp.jeffreymarx.n
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://wordcamp.jeffreymarx.net/wp-content/uploads/2012/05/zod_cl12.png</wp:attachment_url>
+		<wp:attachment_url>http://localhost:8888/wordcamp/wp-content/uploads/2012/05/zod_cl12.png</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2012/05/zod_cl12.png]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
-			<wp:meta_value><![CDATA[a:6:{s:5:"width";s:3:"494";s:6:"height";s:3:"530";s:14:"hwstring_small";s:22:"height='96' width='89'";s:4:"file";s:20:"2012/05/zod_cl12.png";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:20:"zod_cl12-150x150.png";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:20:"zod_cl12-279x300.png";s:5:"width";s:3:"279";s:6:"height";s:3:"300";}s:14:"post-thumbnail";a:3:{s:4:"file";s:20:"zod_cl12-494x198.png";s:5:"width";s:3:"494";s:6:"height";s:3:"198";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:6:{s:5:"width";s:3:"494";s:6:"height";s:3:"530";s:14:"hwstring_small";s:22:"height='96' width='89'";s:4:"file";s:20:"2012/05/zod_cl12.png";s:5:"sizes";a:5:{s:9:"thumbnail";a:3:{s:4:"file";s:20:"zod_cl12-150x150.png";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:20:"zod_cl12-279x300.png";s:5:"width";s:3:"279";s:6:"height";s:3:"300";}s:14:"post-thumbnail";a:3:{s:4:"file";s:20:"zod_cl12-494x288.png";s:5:"width";s:3:"494";s:6:"height";s:3:"288";}s:13:"large-feature";a:3:{s:4:"file";s:20:"zod_cl12-494x288.png";s:5:"width";s:3:"494";s:6:"height";s:3:"288";}s:13:"small-feature";a:3:{s:4:"file";s:20:"zod_cl12-279x300.png";s:5:"width";s:3:"279";s:6:"height";s:3:"300";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>zod_cl12</title>
-		<link>http://wordcamp.jeffreymarx.net/michael-shannon-cast-as-general-zod-in-man-of-steel/zod_cl12-2/</link>
+		<link>http://localhost:8888/wordcamp/michael-shannon-cast-as-general-zod-in-man-of-steel/zod_cl12-2/</link>
 		<pubDate>Thu, 17 May 2012 18:58:23 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
-		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/wp-content/uploads/2012/05/zod_cl121.png</guid>
+		<guid isPermaLink="false">http://localhost:8888/wordcamp/wp-content/uploads/2012/05/zod_cl121.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -278,19 +366,19 @@ As a new WordPress user, you should go to <a href="http://wordcamp.jeffreymarx.n
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://wordcamp.jeffreymarx.net/wp-content/uploads/2012/05/zod_cl121.png</wp:attachment_url>
+		<wp:attachment_url>http://localhost:8888/wordcamp/wp-content/uploads/2012/05/zod_cl121.png</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2012/05/zod_cl121.png]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
-			<wp:meta_value><![CDATA[a:6:{s:5:"width";s:3:"400";s:6:"height";s:3:"419";s:14:"hwstring_small";s:22:"height='96' width='91'";s:4:"file";s:21:"2012/05/zod_cl121.png";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:21:"zod_cl121-150x150.png";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:21:"zod_cl121-286x300.png";s:5:"width";s:3:"286";s:6:"height";s:3:"300";}s:14:"post-thumbnail";a:3:{s:4:"file";s:21:"zod_cl121-400x198.png";s:5:"width";s:3:"400";s:6:"height";s:3:"198";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:6:{s:5:"width";s:3:"400";s:6:"height";s:3:"419";s:14:"hwstring_small";s:22:"height='96' width='91'";s:4:"file";s:21:"2012/05/zod_cl121.png";s:5:"sizes";a:5:{s:9:"thumbnail";a:3:{s:4:"file";s:21:"zod_cl121-150x150.png";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:21:"zod_cl121-286x300.png";s:5:"width";s:3:"286";s:6:"height";s:3:"300";}s:14:"post-thumbnail";a:3:{s:4:"file";s:21:"zod_cl121-400x288.png";s:5:"width";s:3:"400";s:6:"height";s:3:"288";}s:13:"large-feature";a:3:{s:4:"file";s:21:"zod_cl121-400x288.png";s:5:"width";s:3:"400";s:6:"height";s:3:"288";}s:13:"small-feature";a:3:{s:4:"file";s:21:"zod_cl121-286x300.png";s:5:"width";s:3:"286";s:6:"height";s:3:"300";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>Tom Hardy cast as Bane in Dark Knight Rises</title>
-		<link>http://wordcamp.jeffreymarx.net/tom-hardy-cast-as-bane-in-dark-knight-rises/</link>
+		<link>http://localhost:8888/wordcamp/tom-hardy-cast-as-bane-in-dark-knight-rises/</link>
 		<pubDate>Thu, 17 May 2012 21:38:10 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
 		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=35</guid>
@@ -319,13 +407,21 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
 			<wp:meta_key>publisher</wp:meta_key>
 			<wp:meta_value><![CDATA[DC]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>Amy Adams co-stars in Spiderman remake</title>
-		<link>http://wordcamp.jeffreymarx.net/amy-adams-to-play-gwen-in-the-amazing-spiderman/</link>
+		<link>http://localhost:8888/wordcamp/amy-adams-to-play-gwen-in-the-amazing-spiderman/</link>
 		<pubDate>Fri, 18 May 2012 15:59:14 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
 		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=37</guid>
@@ -354,13 +450,21 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
 			<wp:meta_key>publisher</wp:meta_key>
 			<wp:meta_value><![CDATA[Marvel]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>Zack Snyder to direct superman remake</title>
-		<link>http://wordcamp.jeffreymarx.net/zack-snyder-to-direct-superman-remake/</link>
+		<link>http://localhost:8888/wordcamp/zack-snyder-to-direct-superman-remake/</link>
 		<pubDate>Fri, 18 May 2012 16:02:59 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
 		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=40</guid>
@@ -387,34 +491,9 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>publisher</wp:meta_key>
-			<wp:meta_value><![CDATA[DC]]></wp:meta_value>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>Random Batman headline</title>
-		<link>http://wordcamp.jeffreymarx.net/random-batman-headline/</link>
-		<pubDate>Fri, 18 May 2012 16:04:41 +0000</pubDate>
-		<dc:creator>jmarx</dc:creator>
-		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=44</guid>
-		<description></description>
-		<content:encoded><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>44</wp:post_id>
-		<wp:post_date>2012-05-18 16:04:41</wp:post_date>
-		<wp:post_date_gmt>2012-05-18 16:04:41</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>random-batman-headline</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="batman"><![CDATA[Batman]]></category>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -425,140 +504,42 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Another random Batman headline</title>
-		<link>http://wordcamp.jeffreymarx.net/another-random-batman-headline/</link>
-		<pubDate>Fri, 18 May 2012 16:05:34 +0000</pubDate>
+		<title>export.xml_.txt</title>
+		<link>http://localhost:8888/wordcamp/?attachment_id=83</link>
+		<pubDate>Sun, 03 Jun 2012 00:12:54 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
-		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=47</guid>
+		<guid isPermaLink="false">http://localhost:8888/wordcamp/wp-content/uploads/2012/06/export.xml_.txt</guid>
 		<description></description>
-		<content:encoded><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]]></content:encoded>
+		<content:encoded><![CDATA[http://localhost:8888/wordcamp/wp-content/uploads/2012/06/export.xml_.txt]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>47</wp:post_id>
-		<wp:post_date>2012-05-18 16:05:34</wp:post_date>
-		<wp:post_date_gmt>2012-05-18 16:05:34</wp:post_date_gmt>
+		<wp:post_id>83</wp:post_id>
+		<wp:post_date>2012-06-03 00:12:54</wp:post_date>
+		<wp:post_date_gmt>2012-06-03 00:12:54</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>another-random-batman-headline</wp:post_name>
-		<wp:status>publish</wp:status>
+		<wp:post_name>export-xml_-txt</wp:post_name>
+		<wp:status>private</wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="batman"><![CDATA[Batman]]></category>
-		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>publisher</wp:meta_key>
-			<wp:meta_value><![CDATA[DC]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Random Superman headline</title>
-		<link>http://wordcamp.jeffreymarx.net/random-superman-headline/</link>
-		<pubDate>Fri, 18 May 2012 16:06:39 +0000</pubDate>
-		<dc:creator>jmarx</dc:creator>
-		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=50</guid>
-		<description></description>
-		<content:encoded><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>50</wp:post_id>
-		<wp:post_date>2012-05-18 16:06:39</wp:post_date>
-		<wp:post_date_gmt>2012-05-18 16:06:39</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>random-superman-headline</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="superman"><![CDATA[Superman]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>publisher</wp:meta_key>
-			<wp:meta_value><![CDATA[DC]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>1311868097_peter-parker-andrew-garfield-02</title>
-		<link>http://wordcamp.jeffreymarx.net/picture-of-the-day/1311868097_peter-parker-andrew-garfield-02/</link>
-		<pubDate>Fri, 18 May 2012 21:24:57 +0000</pubDate>
-		<dc:creator>jmarx</dc:creator>
-		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/wp-content/uploads/2012/05/1311868097_peter-parker-andrew-garfield-02.jpg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>72</wp:post_id>
-		<wp:post_date>2012-05-18 21:24:57</wp:post_date>
-		<wp:post_date_gmt>2012-05-18 21:24:57</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>1311868097_peter-parker-andrew-garfield-02</wp:post_name>
-		<wp:status>inherit</wp:status>
-		<wp:post_parent>71</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://wordcamp.jeffreymarx.net/wp-content/uploads/2012/05/1311868097_peter-parker-andrew-garfield-02.jpg</wp:attachment_url>
+		<wp:attachment_url>http://localhost:8888/wordcamp/wp-content/uploads/2012/06/export.xml_.txt</wp:attachment_url>
 		<wp:postmeta>
-			<wp:meta_key>_wp_attached_file</wp:meta_key>
-			<wp:meta_value><![CDATA[2012/05/1311868097_peter-parker-andrew-garfield-02.jpg]]></wp:meta_value>
+			<wp:meta_key>_wp_attachment_context</wp:meta_key>
+			<wp:meta_value><![CDATA[import]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
-			<wp:meta_value><![CDATA[a:6:{s:5:"width";s:3:"361";s:6:"height";s:3:"560";s:14:"hwstring_small";s:22:"height='96' width='61'";s:4:"file";s:54:"2012/05/1311868097_peter-parker-andrew-garfield-02.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:54:"1311868097_peter-parker-andrew-garfield-02-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:54:"1311868097_peter-parker-andrew-garfield-02-193x300.jpg";s:5:"width";s:3:"193";s:6:"height";s:3:"300";}s:14:"post-thumbnail";a:3:{s:4:"file";s:54:"1311868097_peter-parker-andrew-garfield-02-361x198.jpg";s:5:"width";s:3:"361";s:6:"height";s:3:"198";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}]]></wp:meta_value>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2012/06/export.xml_.txt]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>1311868097_peter-parker-andrew-garfield-0200</title>
-		<link>http://wordcamp.jeffreymarx.net/picture-of-the-day/1311868097_peter-parker-andrew-garfield-0200/</link>
-		<pubDate>Mon, 21 May 2012 15:07:45 +0000</pubDate>
-		<dc:creator>jmarx</dc:creator>
-		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/wp-content/uploads/2012/05/1311868097_peter-parker-andrew-garfield-0200.png</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>76</wp:post_id>
-		<wp:post_date>2012-05-21 15:07:45</wp:post_date>
-		<wp:post_date_gmt>2012-05-21 15:07:45</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>1311868097_peter-parker-andrew-garfield-0200</wp:post_name>
-		<wp:status>inherit</wp:status>
-		<wp:post_parent>71</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>attachment</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://wordcamp.jeffreymarx.net/wp-content/uploads/2012/05/1311868097_peter-parker-andrew-garfield-0200.png</wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key>_wp_attached_file</wp:meta_key>
-			<wp:meta_value><![CDATA[2012/05/1311868097_peter-parker-andrew-garfield-0200.png]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
-			<wp:meta_value><![CDATA[a:6:{s:5:"width";s:3:"200";s:6:"height";s:3:"310";s:14:"hwstring_small";s:22:"height='96' width='61'";s:4:"file";s:56:"2012/05/1311868097_peter-parker-andrew-garfield-0200.png";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:56:"1311868097_peter-parker-andrew-garfield-0200-150x150.png";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:56:"1311868097_peter-parker-andrew-garfield-0200-193x300.png";s:5:"width";s:3:"193";s:6:"height";s:3:"300";}s:14:"post-thumbnail";a:3:{s:4:"file";s:56:"1311868097_peter-parker-andrew-garfield-0200-200x198.png";s:5:"width";s:3:"200";s:6:"height";s:3:"198";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>1311868097_peter-parker-andrew-garfield-0200</title>
-		<link>http://wordcamp.jeffreymarx.net/picture-of-the-day/1311868097_peter-parker-andrew-garfield-0200-2/</link>
+		<link>http://localhost:8888/wordcamp/picture-of-the-day/1311868097_peter-parker-andrew-garfield-0200-2/</link>
 		<pubDate>Mon, 21 May 2012 15:14:32 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
-		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/wp-content/uploads/2012/05/1311868097_peter-parker-andrew-garfield-02001.png</guid>
+		<guid isPermaLink="false">http://localhost:8888/wordcamp/wp-content/uploads/2012/05/1311868097_peter-parker-andrew-garfield-02001.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -574,7 +555,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://wordcamp.jeffreymarx.net/wp-content/uploads/2012/05/1311868097_peter-parker-andrew-garfield-02001.png</wp:attachment_url>
+		<wp:attachment_url>http://localhost:8888/wordcamp/wp-content/uploads/2012/05/1311868097_peter-parker-andrew-garfield-02001.png</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2012/05/1311868097_peter-parker-andrew-garfield-02001.png]]></wp:meta_value>
@@ -585,42 +566,73 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>1311868097_peter-parker-andrew-garfield-0200</title>
-		<link>http://wordcamp.jeffreymarx.net/picture-of-the-day/1311868097_peter-parker-andrew-garfield-0200-3/</link>
-		<pubDate>Mon, 21 May 2012 15:18:07 +0000</pubDate>
+		<title>1311868097_peter-parker-andrew-garfield-02</title>
+		<link>http://localhost:8888/wordcamp/picture-of-the-day/1311868097_peter-parker-andrew-garfield-02/</link>
+		<pubDate>Fri, 18 May 2012 21:24:57 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
-		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/wp-content/uploads/2012/05/1311868097_peter-parker-andrew-garfield-02002.png</guid>
+		<guid isPermaLink="false">http://localhost:8888/wordcamp/wp-content/uploads/2012/05/1311868097_peter-parker-andrew-garfield-02.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>79</wp:post_id>
-		<wp:post_date>2012-05-21 15:18:07</wp:post_date>
-		<wp:post_date_gmt>2012-05-21 15:18:07</wp:post_date_gmt>
+		<wp:post_id>72</wp:post_id>
+		<wp:post_date>2012-05-18 21:24:57</wp:post_date>
+		<wp:post_date_gmt>2012-05-18 21:24:57</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>1311868097_peter-parker-andrew-garfield-0200-3</wp:post_name>
+		<wp:post_name>1311868097_peter-parker-andrew-garfield-02</wp:post_name>
 		<wp:status>inherit</wp:status>
 		<wp:post_parent>71</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://wordcamp.jeffreymarx.net/wp-content/uploads/2012/05/1311868097_peter-parker-andrew-garfield-02002.png</wp:attachment_url>
+		<wp:attachment_url>http://localhost:8888/wordcamp/wp-content/uploads/2012/05/1311868097_peter-parker-andrew-garfield-02.jpg</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
-			<wp:meta_value><![CDATA[2012/05/1311868097_peter-parker-andrew-garfield-02002.png]]></wp:meta_value>
+			<wp:meta_value><![CDATA[2012/05/1311868097_peter-parker-andrew-garfield-02.jpg]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
-			<wp:meta_value><![CDATA[a:6:{s:5:"width";s:3:"200";s:6:"height";s:3:"310";s:14:"hwstring_small";s:22:"height='96' width='61'";s:4:"file";s:57:"2012/05/1311868097_peter-parker-andrew-garfield-02002.png";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:57:"1311868097_peter-parker-andrew-garfield-02002-150x150.png";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:57:"1311868097_peter-parker-andrew-garfield-02002-193x300.png";s:5:"width";s:3:"193";s:6:"height";s:3:"300";}s:14:"post-thumbnail";a:3:{s:4:"file";s:57:"1311868097_peter-parker-andrew-garfield-02002-200x198.png";s:5:"width";s:3:"200";s:6:"height";s:3:"198";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:6:{s:5:"width";s:3:"361";s:6:"height";s:3:"560";s:14:"hwstring_small";s:22:"height='96' width='61'";s:4:"file";s:54:"2012/05/1311868097_peter-parker-andrew-garfield-02.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:54:"1311868097_peter-parker-andrew-garfield-02-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:54:"1311868097_peter-parker-andrew-garfield-02-193x300.jpg";s:5:"width";s:3:"193";s:6:"height";s:3:"300";}s:14:"post-thumbnail";a:3:{s:4:"file";s:54:"1311868097_peter-parker-andrew-garfield-02-361x198.jpg";s:5:"width";s:3:"361";s:6:"height";s:3:"198";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>1311868097_peter-parker-andrew-garfield-0200</title>
+		<link>http://localhost:8888/wordcamp/picture-of-the-day/1311868097_peter-parker-andrew-garfield-0200/</link>
+		<pubDate>Mon, 21 May 2012 15:07:45 +0000</pubDate>
+		<dc:creator>jmarx</dc:creator>
+		<guid isPermaLink="false">http://localhost:8888/wordcamp/wp-content/uploads/2012/05/1311868097_peter-parker-andrew-garfield-0200.png</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>76</wp:post_id>
+		<wp:post_date>2012-05-21 15:07:45</wp:post_date>
+		<wp:post_date_gmt>2012-05-21 15:07:45</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>1311868097_peter-parker-andrew-garfield-0200</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>71</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://localhost:8888/wordcamp/wp-content/uploads/2012/05/1311868097_peter-parker-andrew-garfield-0200.png</wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2012/05/1311868097_peter-parker-andrew-garfield-0200.png]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:6:{s:5:"width";s:3:"200";s:6:"height";s:3:"310";s:14:"hwstring_small";s:22:"height='96' width='61'";s:4:"file";s:56:"2012/05/1311868097_peter-parker-andrew-garfield-0200.png";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:56:"1311868097_peter-parker-andrew-garfield-0200-150x150.png";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:56:"1311868097_peter-parker-andrew-garfield-0200-193x300.png";s:5:"width";s:3:"193";s:6:"height";s:3:"300";}s:14:"post-thumbnail";a:3:{s:4:"file";s:56:"1311868097_peter-parker-andrew-garfield-0200-200x198.png";s:5:"width";s:3:"200";s:6:"height";s:3:"198";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>anne-hathaway-catwoman-200</title>
-		<link>http://wordcamp.jeffreymarx.net/picture-of-the-day/anne-hathaway-catwoman-200/</link>
+		<link>http://localhost:8888/wordcamp/picture-of-the-day/anne-hathaway-catwoman-200/</link>
 		<pubDate>Mon, 21 May 2012 15:41:32 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
-		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/wp-content/uploads/2012/05/anne-hathaway-catwoman-200.png</guid>
+		<guid isPermaLink="false">http://localhost:8888/wordcamp/wp-content/uploads/2012/05/anne-hathaway-catwoman-200.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -636,7 +648,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://wordcamp.jeffreymarx.net/wp-content/uploads/2012/05/anne-hathaway-catwoman-200.png</wp:attachment_url>
+		<wp:attachment_url>http://localhost:8888/wordcamp/wp-content/uploads/2012/05/anne-hathaway-catwoman-200.png</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2012/05/anne-hathaway-catwoman-200.png]]></wp:meta_value>
@@ -647,8 +659,39 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 		</wp:postmeta>
 	</item>
 	<item>
+		<title>1311868097_peter-parker-andrew-garfield-0200</title>
+		<link>http://localhost:8888/wordcamp/picture-of-the-day/1311868097_peter-parker-andrew-garfield-0200-3/</link>
+		<pubDate>Mon, 21 May 2012 15:18:07 +0000</pubDate>
+		<dc:creator>jmarx</dc:creator>
+		<guid isPermaLink="false">http://localhost:8888/wordcamp/wp-content/uploads/2012/05/1311868097_peter-parker-andrew-garfield-02002.png</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>79</wp:post_id>
+		<wp:post_date>2012-05-21 15:18:07</wp:post_date>
+		<wp:post_date_gmt>2012-05-21 15:18:07</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>1311868097_peter-parker-andrew-garfield-0200-3</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>71</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://localhost:8888/wordcamp/wp-content/uploads/2012/05/1311868097_peter-parker-andrew-garfield-02002.png</wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2012/05/1311868097_peter-parker-andrew-garfield-02002.png]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:6:{s:5:"width";s:3:"200";s:6:"height";s:3:"310";s:14:"hwstring_small";s:22:"height='96' width='61'";s:4:"file";s:57:"2012/05/1311868097_peter-parker-andrew-garfield-02002.png";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:57:"1311868097_peter-parker-andrew-garfield-02002-150x150.png";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:57:"1311868097_peter-parker-andrew-garfield-02002-193x300.png";s:5:"width";s:3:"193";s:6:"height";s:3:"300";}s:14:"post-thumbnail";a:3:{s:4:"file";s:57:"1311868097_peter-parker-andrew-garfield-02002-200x198.png";s:5:"width";s:3:"200";s:6:"height";s:3:"198";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 		<title>Marvel</title>
-		<link>http://wordcamp.jeffreymarx.net/marvel/</link>
+		<link>http://localhost:8888/wordcamp/marvel/</link>
 		<pubDate>Thu, 24 May 2012 14:43:19 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
 		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?page_id=104</guid>
@@ -678,7 +721,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 	</item>
 	<item>
 		<title>DC</title>
-		<link>http://wordcamp.jeffreymarx.net/dc/</link>
+		<link>http://localhost:8888/wordcamp/dc/</link>
 		<pubDate>Thu, 24 May 2012 14:42:46 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
 		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?page_id=105</guid>
@@ -707,26 +750,59 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Dark Knight Rises to hit theaters in July</title>
-		<link>http://wordcamp.jeffreymarx.net/dark-knight-rises-to-hit-theaters-in-june/</link>
-		<pubDate>Mon, 28 May 2012 20:58:15 +0000</pubDate>
+		<title>Hello world!</title>
+		<link>http://localhost:8888/wordcamp/hello-world/</link>
+		<pubDate>Sat, 19 May 2012 01:05:02 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
-		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=4</guid>
+		<guid isPermaLink="false">http://localhost:8888/wordcamp/?p=1</guid>
 		<description></description>
-		<content:encoded><![CDATA[The Dark Knight Rises will hit theaters in late July completing Christopher Nolan’s Batman trilogy. 2008’s The Dark Knight starred the late Heath Ledger as the evil Joker. During its opening weekend the film raked in $158, 411, 483.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia <a href="http://wordcamp.jeffreymarx.net/wp-content/uploads/2012/05/christian-bale-batman.jpg"><img class="size-full wp-image-8 alignright" title="christian-bale-batman" src="http://wordcamp.jeffreymarx.net/wp-content/uploads/2012/05/christian-bale-batman.jpg" alt="" width="430" height="305" /></a>deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]]></content:encoded>
-		<excerpt:encoded><![CDATA[The Dark Knight Rises will hit theaters in late July completing Christopher Nolan’s Batman trilogy. 2008’s The Dark Knight starred the late Heath Ledger as the evil Joker. During its opening weekend the film raked in $158, 411, 483. ]]></excerpt:encoded>
-		<wp:post_id>4</wp:post_id>
-		<wp:post_date>2012-05-28 20:58:15</wp:post_date>
-		<wp:post_date_gmt>2012-05-28 20:58:15</wp:post_date_gmt>
+		<content:encoded><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1</wp:post_id>
+		<wp:post_date>2012-05-19 01:05:02</wp:post_date>
+		<wp:post_date_gmt>2012-05-19 01:05:02</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>dark-knight-rises-to-hit-theaters-in-june</wp:post_name>
+		<wp:post_name>hello-world</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+		<wp:comment>
+			<wp:comment_id>1</wp:comment_id>
+			<wp:comment_author><![CDATA[Mr WordPress]]></wp:comment_author>
+			<wp:comment_author_email></wp:comment_author_email>
+			<wp:comment_author_url>http://wordpress.org/</wp:comment_author_url>
+			<wp:comment_author_IP></wp:comment_author_IP>
+			<wp:comment_date>2012-05-19 01:05:02</wp:comment_date>
+			<wp:comment_date_gmt>2012-05-19 01:05:02</wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Hi, this is a comment.<br />To delete a comment, just log in and view the post&#039;s comments. There you will have the option to edit or delete them.]]></wp:comment_content>
+			<wp:comment_approved>1</wp:comment_approved>
+			<wp:comment_type></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+		</wp:comment>
+	</item>
+	<item>
+		<title>Random Batman headline</title>
+		<link>http://localhost:8888/wordcamp/random-batman-headline/</link>
+		<pubDate>Fri, 18 May 2012 16:04:41 +0000</pubDate>
+		<dc:creator>jmarx</dc:creator>
+		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=44</guid>
+		<description></description>
+		<content:encoded><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>44</wp:post_id>
+		<wp:post_date>2012-05-18 16:04:41</wp:post_date>
+		<wp:post_date_gmt>2012-05-18 16:04:41</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>random-batman-headline</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -734,91 +810,100 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="category" nicename="batman"><![CDATA[Batman]]></category>
-		<category domain="post_tag" nicename="featured"><![CDATA[Featured]]></category>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[8]]></wp:meta_value>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>publisher</wp:meta_key>
+			<wp:meta_value><![CDATA[DC]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>&#039;The Social Network&#039;s Andrew Garfield to play &#039;Spiderman&#039; in reboot</title>
-		<link>http://wordcamp.jeffreymarx.net/the-social-networks-andrew-garfield-to-play-spiderman-in-reboot/</link>
-		<pubDate>Mon, 28 May 2012 17:55:58 +0000</pubDate>
+		<title>Another random Batman headline</title>
+		<link>http://localhost:8888/wordcamp/another-random-batman-headline/</link>
+		<pubDate>Fri, 18 May 2012 16:05:34 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
-		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=14</guid>
+		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=47</guid>
 		<description></description>
-		<content:encoded><![CDATA[<a href="http://wordcamp.jeffreymarx.net/wp-content/uploads/2012/05/the_amazing_spider-man_andrew-garfield.png"><img class="alignright size-medium wp-image-23" title="the_amazing_spider-man_andrew-garfield" src="http://wordcamp.jeffreymarx.net/wp-content/uploads/2012/05/the_amazing_spider-man_andrew-garfield-300x261.png" alt="" width="300" height="261" /></a>Five years since the release of "Spiderman 3," Sony Pictures is releasing “The Amazing Spider-Man.” After the cancellation of the "Spiderman 4," production began for a rebooted version instead of another sequel.  “The Amazing-Spiderman” is filled with a complete new cast with actor Andrew Garfield playing Peter Parker and “Easy A” actress Emma Stone playing his high school love interest, Gwen Stacy.
+		<content:encoded><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-In this version, Parker is a regular high school student that tries to unravel his mysterious past regarding the disappearance of his parents. After discovering his father's briefcase, he becomes closer to realizing his true identity and begins his journey towards becoming Spiderman. “The Amazing-Spiderman” will hit theaters July 3.]]></content:encoded>
-		<excerpt:encoded><![CDATA[Five years since the release of “Spiderman 3,” Sony Pictures is releasing “The Amazing Spider-Man.” After the cancellation of the “Spiderman 4,” production began for a rebooted version instead of another sequel.]]></excerpt:encoded>
-		<wp:post_id>14</wp:post_id>
-		<wp:post_date>2012-05-28 17:55:58</wp:post_date>
-		<wp:post_date_gmt>2012-05-28 17:55:58</wp:post_date_gmt>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>47</wp:post_id>
+		<wp:post_date>2012-05-18 16:05:34</wp:post_date>
+		<wp:post_date_gmt>2012-05-18 16:05:34</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>the-social-networks-andrew-garfield-to-play-spiderman-in-reboot</wp:post_name>
+		<wp:post_name>another-random-batman-headline</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type>post</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="post_tag" nicename="featured-secondary"><![CDATA[Featured secondary]]></category>
-		<category domain="category" nicename="spiderman"><![CDATA[Spiderman]]></category>
+		<category domain="category" nicename="batman"><![CDATA[Batman]]></category>
 		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[23]]></wp:meta_value>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>publisher</wp:meta_key>
-			<wp:meta_value><![CDATA[Marvel]]></wp:meta_value>
+			<wp:meta_value><![CDATA[DC]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Michael Shannon cast as General Zod in &#039;Man of Steel&#039;</title>
-		<link>http://wordcamp.jeffreymarx.net/michael-shannon-cast-as-general-zod-in-man-of-steel/</link>
-		<pubDate>Mon, 28 May 2012 18:54:26 +0000</pubDate>
+		<title>Random Superman headline</title>
+		<link>http://localhost:8888/wordcamp/random-superman-headline/</link>
+		<pubDate>Fri, 18 May 2012 16:06:39 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
-		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=27</guid>
+		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=50</guid>
 		<description></description>
-		<content:encoded><![CDATA[<a href="http://wordcamp.jeffreymarx.net/wp-content/uploads/2012/05/zod_cl121.png"><img class="alignright size-medium wp-image-32" title="zod_cl12" src="http://wordcamp.jeffreymarx.net/wp-content/uploads/2012/05/zod_cl121-286x300.png" alt="" width="286" height="300" /></a>Boardwalk Empire's disgraced Atlantic City Prohibition Agent will leave New Jersey in favor of Krypton when he dons the role of the legendary outlaw alien general. 'Man Of Steel' hits theaters in June of 2013.
+		<content:encoded><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-&nbsp;
-
-&nbsp;]]></content:encoded>
-		<excerpt:encoded><![CDATA[Boardwalk Empire's disgraced Atlantic City Prohibition Agent will leave New Jersey in favor of Krypton when he dons the role of the legendary outlaw alien general. 'Man Of Steel' hits theaters in June of 2013.]]></excerpt:encoded>
-		<wp:post_id>27</wp:post_id>
-		<wp:post_date>2012-05-28 18:54:26</wp:post_date>
-		<wp:post_date_gmt>2012-05-28 18:54:26</wp:post_date_gmt>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>50</wp:post_id>
+		<wp:post_date>2012-05-18 16:06:39</wp:post_date>
+		<wp:post_date_gmt>2012-05-18 16:06:39</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>michael-shannon-cast-as-general-zod-in-man-of-steel</wp:post_name>
+		<wp:post_name>random-superman-headline</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type>post</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="post_tag" nicename="featured-secondary"><![CDATA[Featured secondary]]></category>
 		<category domain="category" nicename="superman"><![CDATA[Superman]]></category>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[32]]></wp:meta_value>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>publisher</wp:meta_key>
@@ -827,7 +912,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 	</item>
 	<item>
 		<title>Another random Superman headline</title>
-		<link>http://wordcamp.jeffreymarx.net/another-random-superman-headline/</link>
+		<link>http://localhost:8888/wordcamp/another-random-superman-headline/</link>
 		<pubDate>Fri, 18 May 2012 16:07:04 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
 		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=52</guid>
@@ -854,13 +939,21 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
 			<wp:meta_key>publisher</wp:meta_key>
 			<wp:meta_value><![CDATA[DC]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>Random Spiderman headline</title>
-		<link>http://wordcamp.jeffreymarx.net/random-spiderman-headline/</link>
+		<link>http://localhost:8888/wordcamp/random-spiderman-headline/</link>
 		<pubDate>Fri, 18 May 2012 16:08:08 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
 		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=54</guid>
@@ -886,43 +979,18 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>Another random Spiderman headline</title>
-		<link>http://wordcamp.jeffreymarx.net/another-random-spiderman-headline/</link>
-		<pubDate>Fri, 18 May 2012 16:09:16 +0000</pubDate>
-		<dc:creator>jmarx</dc:creator>
-		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=57</guid>
-		<description></description>
-		<content:encoded><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>57</wp:post_id>
-		<wp:post_date>2012-05-18 16:09:16</wp:post_date>
-		<wp:post_date_gmt>2012-05-18 16:09:16</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>another-random-spiderman-headline</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="spiderman"><![CDATA[Spiderman]]></category>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>publisher</wp:meta_key>
-			<wp:meta_value><![CDATA[Marvel]]></wp:meta_value>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>Random Iron Man headline</title>
-		<link>http://wordcamp.jeffreymarx.net/random-iron-man-headline/</link>
+		<link>http://localhost:8888/wordcamp/random-iron-man-headline/</link>
 		<pubDate>Fri, 18 May 2012 21:12:17 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
 		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=62</guid>
@@ -947,13 +1015,17 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
 			<wp:meta_key>publisher</wp:meta_key>
 			<wp:meta_value><![CDATA[Marvel]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>Another Random Iron Man headline</title>
-		<link>http://wordcamp.jeffreymarx.net/another-random-iron-man-headline/</link>
+		<link>http://localhost:8888/wordcamp/another-random-iron-man-headline/</link>
 		<pubDate>Fri, 18 May 2012 21:15:16 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
 		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=65</guid>
@@ -978,13 +1050,17 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
 			<wp:meta_key>publisher</wp:meta_key>
 			<wp:meta_value><![CDATA[marvel]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>Random Iron Man headline</title>
-		<link>http://wordcamp.jeffreymarx.net/random-iron-man-headline-2/</link>
+		<link>http://localhost:8888/wordcamp/random-iron-man-headline-2/</link>
 		<pubDate>Fri, 18 May 2012 21:16:41 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
 		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=67</guid>
@@ -1011,45 +1087,17 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
 			<wp:meta_key>publisher</wp:meta_key>
 			<wp:meta_value><![CDATA[Marvel]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Picture of the day</title>
-		<link>http://wordcamp.jeffreymarx.net/picture-of-the-day/</link>
-		<pubDate>Fri, 18 May 2012 21:25:16 +0000</pubDate>
-		<dc:creator>jmarx</dc:creator>
-		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=71</guid>
-		<description></description>
-		<content:encoded><![CDATA[Anne Hathaway as Catwoman in Dark Knight Rises.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>71</wp:post_id>
-		<wp:post_date>2012-05-18 21:25:16</wp:post_date>
-		<wp:post_date_gmt>2012-05-18 21:25:16</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>picture-of-the-day</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="post_tag" nicename="picoftheday"><![CDATA[picoftheday]]></category>
-		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[82]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title>Avenger&#039;s is an awesome movie</title>
-		<link>http://wordcamp.jeffreymarx.net/avengers-is-an-awesome-movie/</link>
+		<link>http://localhost:8888/wordcamp/avengers-is-an-awesome-movie/</link>
 		<pubDate>Wed, 23 May 2012 15:46:58 +0000</pubDate>
 		<dc:creator>Alex</dc:creator>
 		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=88</guid>
@@ -1078,7 +1126,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 	</item>
 	<item>
 		<title>Green Lantern was awful</title>
-		<link>http://wordcamp.jeffreymarx.net/green-lantern-was-awful/</link>
+		<link>http://localhost:8888/wordcamp/green-lantern-was-awful/</link>
 		<pubDate>Wed, 23 May 2012 15:49:02 +0000</pubDate>
 		<dc:creator>Alex</dc:creator>
 		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=91</guid>
@@ -1107,7 +1155,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 	</item>
 	<item>
 		<title>Random Alex review</title>
-		<link>http://wordcamp.jeffreymarx.net/random-alex-review/</link>
+		<link>http://localhost:8888/wordcamp/random-alex-review/</link>
 		<pubDate>Wed, 23 May 2012 15:50:04 +0000</pubDate>
 		<dc:creator>Alex</dc:creator>
 		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=93</guid>
@@ -1136,7 +1184,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 	</item>
 	<item>
 		<title>Another random Alex review</title>
-		<link>http://wordcamp.jeffreymarx.net/another-random-alex-review/</link>
+		<link>http://localhost:8888/wordcamp/another-random-alex-review/</link>
 		<pubDate>Wed, 23 May 2012 15:52:25 +0000</pubDate>
 		<dc:creator>Alex</dc:creator>
 		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=96</guid>
@@ -1165,7 +1213,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 	</item>
 	<item>
 		<title>Random wonder woman headline</title>
-		<link>http://wordcamp.jeffreymarx.net/random-wonder-woman-headline/</link>
+		<link>http://localhost:8888/wordcamp/random-wonder-woman-headline/</link>
 		<pubDate>Fri, 25 May 2012 16:20:15 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
 		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=126</guid>
@@ -1196,7 +1244,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 	</item>
 	<item>
 		<title>Another random wonder woman headline</title>
-		<link>http://wordcamp.jeffreymarx.net/another-random-wonder-woman-headline/</link>
+		<link>http://localhost:8888/wordcamp/another-random-wonder-woman-headline/</link>
 		<pubDate>Tue, 29 May 2012 16:23:05 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
 		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=129</guid>
@@ -1227,7 +1275,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 	</item>
 	<item>
 		<title>Wonder woman movie coming out</title>
-		<link>http://wordcamp.jeffreymarx.net/wonder-woman-movie-coming-out/</link>
+		<link>http://localhost:8888/wordcamp/wonder-woman-movie-coming-out/</link>
 		<pubDate>Tue, 29 May 2012 16:23:36 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
 		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=131</guid>
@@ -1258,7 +1306,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 	</item>
 	<item>
 		<title>Avengers movie gets great reviews</title>
-		<link>http://wordcamp.jeffreymarx.net/avengers-movie-gets-great-reviews/</link>
+		<link>http://localhost:8888/wordcamp/avengers-movie-gets-great-reviews/</link>
 		<pubDate>Tue, 29 May 2012 16:40:03 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
 		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=135</guid>
@@ -1287,7 +1335,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 	</item>
 	<item>
 		<title>Random avengers headline</title>
-		<link>http://wordcamp.jeffreymarx.net/random-avengers-headline/</link>
+		<link>http://localhost:8888/wordcamp/random-avengers-headline/</link>
 		<pubDate>Tue, 29 May 2012 16:40:27 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
 		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=137</guid>
@@ -1316,7 +1364,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 	</item>
 	<item>
 		<title>Another random avengers headline</title>
-		<link>http://wordcamp.jeffreymarx.net/another-random-avengers-headline/</link>
+		<link>http://localhost:8888/wordcamp/another-random-avengers-headline/</link>
 		<pubDate>Tue, 29 May 2012 16:41:01 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
 		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=140</guid>
@@ -1345,7 +1393,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 	</item>
 	<item>
 		<title>Another random catwoman headline</title>
-		<link>http://wordcamp.jeffreymarx.net/another-random-catwoman-headline/</link>
+		<link>http://localhost:8888/wordcamp/another-random-catwoman-headline/</link>
 		<pubDate>Tue, 29 May 2012 16:43:26 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
 		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=142</guid>
@@ -1371,8 +1419,313 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 		</wp:postmeta>
 	</item>
 	<item>
+		<title>Dark Knight Rises to hit theaters in July</title>
+		<link>http://localhost:8888/wordcamp/dark-knight-rises-to-hit-theaters-in-june-2/</link>
+		<pubDate>Fri, 01 Jun 2012 20:58:15 +0000</pubDate>
+		<dc:creator>jmarx</dc:creator>
+		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=4</guid>
+		<description></description>
+		<content:encoded><![CDATA[The Dark Knight Rises will hit theaters in late July completing Christopher Nolan’s Batman trilogy. 2008’s The Dark Knight starred the late Heath Ledger as the evil Joker. During its opening weekend the film raked in $158, 411, 483.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia <a href="http://wordcamp.jeffreymarx.net/wp-content/uploads/2012/05/christian-bale-batman.jpg"><img class="size-full wp-image-8 alignright" title="christian-bale-batman" src="http://wordcamp.jeffreymarx.net/wp-content/uploads/2012/05/christian-bale-batman.jpg" alt="" width="430" height="305" /></a>deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]]></content:encoded>
+		<excerpt:encoded><![CDATA[The Dark Knight Rises will hit theaters in late July completing Christopher Nolan’s Batman trilogy. 2008’s The Dark Knight starred the late Heath Ledger as the evil Joker. During its opening weekend the film raked in $158, 411, 483. ]]></excerpt:encoded>
+		<wp:post_id>4</wp:post_id>
+		<wp:post_date>2012-06-01 20:58:15</wp:post_date>
+		<wp:post_date_gmt>2012-06-01 20:58:15</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>dark-knight-rises-to-hit-theaters-in-june-2</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="batman"><![CDATA[Batman]]></category>
+		<category domain="post_tag" nicename="featured"><![CDATA[Featured]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[8]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Dark Knight Rises to hit theaters in June</title>
+		<link>http://localhost:8888/wordcamp/dark-knight-rises-to-hit-theaters-in-june/</link>
+		<pubDate>Wed, 16 May 2012 20:58:15 +0000</pubDate>
+		<dc:creator>jmarx</dc:creator>
+		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=4</guid>
+		<description></description>
+		<content:encoded><![CDATA[The Dark Knight Rises will hit theaters in late July completing Christopher Nolan’s Batman trilogy. 2008’s The Dark Knight starred the late Heath Ledger as the evil Joker. During its opening weekend the film raked in $158, 411, 483.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia <a href="http://localhost:8888/wordcamp/wp-content/uploads/2012/05/christian-bale-batman.jpg"><img class="size-full wp-image-8 alignright" title="christian-bale-batman" src="http://localhost:8888/wordcamp/wp-content/uploads/2012/05/christian-bale-batman.jpg" alt="" width="430" height="305" /></a>deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]]></content:encoded>
+		<excerpt:encoded><![CDATA[The Dark Knight Rises will hit theaters in late July completing Christopher Nolan’s Batman trilogy. 2008’s The Dark Knight starred the late Heath Ledger as the evil Joker. During its opening weekend the film raked in $158, 411, 483. ]]></excerpt:encoded>
+		<wp:post_id>7</wp:post_id>
+		<wp:post_date>2012-05-16 20:58:15</wp:post_date>
+		<wp:post_date_gmt>2012-05-16 20:58:15</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>dark-knight-rises-to-hit-theaters-in-june</wp:post_name>
+		<wp:status>trash</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="batman"><![CDATA[Batman]]></category>
+		<category domain="post_tag" nicename="featured"><![CDATA[Featured]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[8]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[8]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_status</wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_time</wp:meta_key>
+			<wp:meta_value><![CDATA[1338734824]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>&#039;The Social Network&#039;s Andrew Garfield to play &#039;Spiderman&#039; in reboot</title>
+		<link>http://localhost:8888/wordcamp/the-social-networks-andrew-garfield-to-play-spiderman-in-reboot/</link>
+		<pubDate>Fri, 01 Jun 2012 17:55:58 +0000</pubDate>
+		<dc:creator>jmarx</dc:creator>
+		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=14</guid>
+		<description></description>
+		<content:encoded><![CDATA[<a href="http://localhost:8888/wordcamp/wp-content/uploads/2012/05/the_amazing_spider-man_andrew-garfield.png"><img class="alignright size-medium wp-image-23" title="the_amazing_spider-man_andrew-garfield" src="http://localhost:8888/wordcamp/wp-content/uploads/2012/05/the_amazing_spider-man_andrew-garfield-300x261.png" alt="" width="300" height="261" /></a>Five years since the release of "Spiderman 3," Sony Pictures is releasing “The Amazing Spider-Man.” After the cancellation of the "Spiderman 4," production began for a rebooted version instead of another sequel.  “The Amazing-Spiderman” is filled with a complete new cast with actor Andrew Garfield playing Peter Parker and “Easy A” actress Emma Stone playing his high school love interest, Gwen Stacy.
+
+In this version, Parker is a regular high school student that tries to unravel his mysterious past regarding the disappearance of his parents. After discovering his father's briefcase, he becomes closer to realizing his true identity and begins his journey towards becoming Spiderman. “The Amazing-Spiderman” will hit theaters July 3.]]></content:encoded>
+		<excerpt:encoded><![CDATA[Five years since the release of “Spiderman 3,” Sony Pictures is releasing “The Amazing Spider-Man.” After the cancellation of the “Spiderman 4,” production began for a rebooted version instead of another sequel.]]></excerpt:encoded>
+		<wp:post_id>14</wp:post_id>
+		<wp:post_date>2012-06-01 17:55:58</wp:post_date>
+		<wp:post_date_gmt>2012-06-01 17:55:58</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>the-social-networks-andrew-garfield-to-play-spiderman-in-reboot</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="featured-secondary"><![CDATA[Featured secondary]]></category>
+		<category domain="category" nicename="spiderman"><![CDATA[Spiderman]]></category>
+		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[23]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[23]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Another random Spiderman headline</title>
+		<link>http://localhost:8888/wordcamp/another-random-spiderman-headline/</link>
+		<pubDate>Fri, 01 Jun 2012 16:09:16 +0000</pubDate>
+		<dc:creator>jmarx</dc:creator>
+		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=57</guid>
+		<description></description>
+		<content:encoded><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>57</wp:post_id>
+		<wp:post_date>2012-06-01 16:09:16</wp:post_date>
+		<wp:post_date_gmt>2012-06-01 16:09:16</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>another-random-spiderman-headline</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="spiderman"><![CDATA[Spiderman]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>publisher</wp:meta_key>
+			<wp:meta_value><![CDATA[Marvel]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Picture of the day</title>
+		<link>http://localhost:8888/wordcamp/picture-of-the-day/</link>
+		<pubDate>Fri, 01 Jun 2012 21:25:16 +0000</pubDate>
+		<dc:creator>jmarx</dc:creator>
+		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=71</guid>
+		<description></description>
+		<content:encoded><![CDATA[Anne Hathaway as Catwoman in Dark Knight Rises.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>71</wp:post_id>
+		<wp:post_date>2012-06-01 21:25:16</wp:post_date>
+		<wp:post_date_gmt>2012-06-01 21:25:16</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>picture-of-the-day</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="picoftheday"><![CDATA[picoftheday]]></category>
+		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[82]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[82]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>&#039;The Social Network&#039;s Andrew Garfield to play &#039;Spiderman&#039; in reboot</title>
+		<link>http://localhost:8888/wordcamp/the-social-networks-andrew-garfield-to-play-spiderman-in-reboot-2/</link>
+		<pubDate>Fri, 01 Jun 2012 17:55:58 +0000</pubDate>
+		<dc:creator>jmarx</dc:creator>
+		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=14</guid>
+		<description></description>
+		<content:encoded><![CDATA[<a href="http://wordcamp.jeffreymarx.net/wp-content/uploads/2012/05/the_amazing_spider-man_andrew-garfield.png"><img class="alignright size-medium wp-image-23" title="the_amazing_spider-man_andrew-garfield" src="http://wordcamp.jeffreymarx.net/wp-content/uploads/2012/05/the_amazing_spider-man_andrew-garfield-300x261.png" alt="" width="300" height="261" /></a>Five years since the release of "Spiderman 3," Sony Pictures is releasing “The Amazing Spider-Man.” After the cancellation of the "Spiderman 4," production began for a rebooted version instead of another sequel.  “The Amazing-Spiderman” is filled with a complete new cast with actor Andrew Garfield playing Peter Parker and “Easy A” actress Emma Stone playing his high school love interest, Gwen Stacy.
+
+In this version, Parker is a regular high school student that tries to unravel his mysterious past regarding the disappearance of his parents. After discovering his father's briefcase, he becomes closer to realizing his true identity and begins his journey towards becoming Spiderman. “The Amazing-Spiderman” will hit theaters July 3.]]></content:encoded>
+		<excerpt:encoded><![CDATA[Five years since the release of “Spiderman 3,” Sony Pictures is releasing “The Amazing Spider-Man.” After the cancellation of the “Spiderman 4,” production began for a rebooted version instead of another sequel.]]></excerpt:encoded>
+		<wp:post_id>106</wp:post_id>
+		<wp:post_date>2012-06-01 17:55:58</wp:post_date>
+		<wp:post_date_gmt>2012-06-01 17:55:58</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>the-social-networks-andrew-garfield-to-play-spiderman-in-reboot-2</wp:post_name>
+		<wp:status>trash</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="featured-secondary"><![CDATA[Featured secondary]]></category>
+		<category domain="category" nicename="spiderman"><![CDATA[Spiderman]]></category>
+		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[23]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>publisher</wp:meta_key>
+			<wp:meta_value><![CDATA[Marvel]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_status</wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_time</wp:meta_key>
+			<wp:meta_value><![CDATA[1338684094]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Michael Shannon cast as General Zod in &#039;Man of Steel&#039;</title>
+		<link>http://localhost:8888/wordcamp/michael-shannon-cast-as-general-zod-in-man-of-steel-2/</link>
+		<pubDate>Fri, 01 Jun 2012 18:54:26 +0000</pubDate>
+		<dc:creator>jmarx</dc:creator>
+		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=27</guid>
+		<description></description>
+		<content:encoded><![CDATA[<a href="http://wordcamp.jeffreymarx.net/wp-content/uploads/2012/05/zod_cl121.png"><img class="alignright size-medium wp-image-32" title="zod_cl12" src="http://wordcamp.jeffreymarx.net/wp-content/uploads/2012/05/zod_cl121-286x300.png" alt="" width="286" height="300" /></a>Boardwalk Empire's disgraced Atlantic City Prohibition Agent will leave New Jersey in favor of Krypton when he dons the role of the legendary outlaw alien general. 'Man Of Steel' hits theaters in June of 2013.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+&nbsp;
+
+&nbsp;]]></content:encoded>
+		<excerpt:encoded><![CDATA[Boardwalk Empire's disgraced Atlantic City Prohibition Agent will leave New Jersey in favor of Krypton when he dons the role of the legendary outlaw alien general. 'Man Of Steel' hits theaters in June of 2013.]]></excerpt:encoded>
+		<wp:post_id>107</wp:post_id>
+		<wp:post_date>2012-06-01 18:54:26</wp:post_date>
+		<wp:post_date_gmt>2012-06-01 18:54:26</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>michael-shannon-cast-as-general-zod-in-man-of-steel-2</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="featured-secondary"><![CDATA[Featured secondary]]></category>
+		<category domain="category" nicename="superman"><![CDATA[Superman]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[32]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>publisher</wp:meta_key>
+			<wp:meta_value><![CDATA[DC]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 		<title>Another random avengers headline</title>
-		<link>http://wordcamp.jeffreymarx.net/another-random-avengers-headline-2/</link>
+		<link>http://localhost:8888/wordcamp/another-random-avengers-headline-2/</link>
 		<pubDate>Tue, 29 May 2012 16:44:58 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
 		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=144</guid>
@@ -1401,7 +1754,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 	</item>
 	<item>
 		<title>Random catwoman headline</title>
-		<link>http://wordcamp.jeffreymarx.net/random-catwoman-headline/</link>
+		<link>http://localhost:8888/wordcamp/random-catwoman-headline/</link>
 		<pubDate>Tue, 29 May 2012 16:46:21 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
 		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=147</guid>
@@ -1430,7 +1783,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 	</item>
 	<item>
 		<title>Catwoman headline</title>
-		<link>http://wordcamp.jeffreymarx.net/catwoman-headline/</link>
+		<link>http://localhost:8888/wordcamp/catwoman-headline/</link>
 		<pubDate>Tue, 29 May 2012 16:47:09 +0000</pubDate>
 		<dc:creator>jmarx</dc:creator>
 		<guid isPermaLink="false">http://wordcamp.jeffreymarx.net/?p=149</guid>

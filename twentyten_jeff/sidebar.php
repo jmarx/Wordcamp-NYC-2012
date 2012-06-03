@@ -60,9 +60,9 @@
 						);
 
 					/*
-					-  Return 1 post which acts as nothing more than a placeholder for our picture of the day. Use 'picoftheday' tag.
-				- Template tags used: the_permalink() and  the_post_thumbnail(), the_content()
-					- the_post_thumbnail() has a custom size defined in functions.php
+-  Return 1 post which acts as nothing more than a placeholder for our picture of the day. Use 'picoftheday' tag.
+- Template tags used: the_permalink() and  the_post_thumbnail(), the_content()
+- the_post_thumbnail() has a custom size defined in functions.php
 					- put the cutline in the the_content() instead of the_excerpt(), which in a lot of themes have 'continue reading' type links attached to it.
 					*/
 					//start the loop

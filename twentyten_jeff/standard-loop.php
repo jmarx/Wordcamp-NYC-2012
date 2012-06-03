@@ -1,5 +1,7 @@
 <!-- STANDARD
 This or something similar is found in most theme files
+have_posts();
+the_post();
 -->
 
 <!-- start the  loop -->
