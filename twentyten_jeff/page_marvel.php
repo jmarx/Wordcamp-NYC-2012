@@ -22,25 +22,22 @@ array(
 	),
 		)
 			);
+	/*
+	-  Using page templates to archive stories by the custom field of 'publisher'
+	- Return 30 stories with the meta key of publisher and meta value of 'dc' or 'marvel''
+	- Using standard template tags on the page template
+	- Meta query used to return stories by custom field. Use nested array for this. A common 'gotcha' is to only use 1 array.
+	*/
+
+
 	//start the loop
 	while ( $marvel_query->have_posts() ) : $marvel_query->the_post();
 	// put your html under here
 ?>
-				<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-			<h2 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
-
-			<div class="entry-meta">
-				<?php twentyten_posted_on(); ?>
-			</div><!-- .entry-meta -->
-
-			<div class="entry-content">
-						<?php the_excerpt(); ?>
-			</div><!-- .entry-content -->
-			</div>
+	&bull; <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> <br>
 <?php
 	endwhile;
 	//end the loop
-	wp_reset_postdata();
 ?>
 
 			</div><!-- #content -->
