@@ -1,4 +1,4 @@
-
+		
 <div class='featured thoughtbox'><!-- Loop # 1 start - the featured story -->
 <?php
 // Create an instance of WP query

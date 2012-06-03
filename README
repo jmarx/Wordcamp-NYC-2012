@@ -1,1 +1,14 @@
 This contains all the presentation materials from Wordcamp NYC 2012. The code and the presentation slides.
+
+This has the theme (twentyten_jeff) and you can put that on your ftp server, and use the
+export.xml file to populate the data we are using.
+
+http://codex.wordpress.org/Importing_Content
+
+Key files to replicate the functionality in the presentation.
+
+loop-index.php (main index file)
+
+sidebar.php (sidebar)
+
+dc.php, marvel.php (page templates for the custom field example)
