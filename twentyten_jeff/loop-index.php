@@ -5,9 +5,9 @@
 // Pass in an array of arguments, to drill down which content you want
 $featured = new WP_Query(
 		array(
-		'tag' => 'featured',
-		'post_status' => 'publish',
-		'posts_per_page' => '1',
+		'tag' => 'featured',			// This is the 'tag' I want
+		'post_status' => 'publish',		// Only published content
+		'posts_per_page' => '1',		// Only one 'featured' article
 		)
 			 );
 /*
@@ -30,7 +30,7 @@ while ( $featured->have_posts() ) : $featured->the_post();
 <?php
 endwhile;
 //end the loop
-wp_reset_postdata();
+wp_reset_postdata(); 		// Important: Put your toys away when you're done
 ?>
 
 <div style="clear:both">&nbsp;</div>
@@ -43,11 +43,11 @@ wp_reset_postdata();
 
 <?php
 // The class instantiation
-$secondaryfeatured = new WP_Query(
+$secondary_featured = new WP_Query(
 	array(
-	'tag' => 'featured-secondary',
-	'post_status' => 'publish',
-	'posts_per_page' => '2',
+	'tag' => 'featured-secondary',		// Only pick up these 'tags'
+	'post_status' => 'publish',			// Again, only published stories
+	'posts_per_page' => '2',			// We only have two spots for these
 	)
 		 );
 
@@ -60,7 +60,7 @@ $secondaryfeatured = new WP_Query(
 $i = 0;
 
 //start the loop
-while ( $secondaryfeatured->have_posts() ) : $secondaryfeatured ->the_post();
+while ( $secondary_featured->have_posts() ) : $secondary_featured ->the_post();
 	//add a counter each time so we can keep track of the posts
 	$i++;
 	//if the post counter is equal to zero, which is the first one, align it to the left, otherwise align it to the right
@@ -82,7 +82,7 @@ while ( $secondaryfeatured->have_posts() ) : $secondaryfeatured ->the_post();
  <?php
 endwhile;
 //end the loop
-wp_reset_postdata();
+wp_reset_postdata();		// Important: Put your toys away when you're done
 ?>
 
 <div id="categoryboxes">
@@ -149,10 +149,10 @@ wp_reset_postdata();
 	// The class instantiation with arguments
 	$spiderman_query = new WP_Query(
 		array(
-			'category_name' => 'spiderman',
+			'category_name' => 'spiderman',		// I only want spiderman!
 			'post_status' => 'publish',
-			'posts_per_page' => '3',
-			'tag__not_in' => array(
+			'posts_per_page' => '3',			// We only need three
+			'tag__not_in' => array(				// Avoid duplicates
 					get_term_by('slug','featured', 'post_tag')->term_id,
 					get_term_by('slug','featured-secondary', 'post_tag')->term_id
 				),
@@ -171,7 +171,7 @@ wp_reset_postdata();
 <?php
 	endwhile;
 	//end the loop
-	wp_reset_postdata();
+	wp_reset_postdata();			// Reset!
 ?>
 	&bull; <strong><a href="/category/spiderman">More Spiderman</a></strong><br>
 

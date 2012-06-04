@@ -24,7 +24,7 @@
 					// The class instantiation with arguments
 					$author_query = new WP_Query(
 						array(
-						'author_name' => 'alex',
+						'author_name' => 'alex',	// Most trusted news source
 						'post_status' => 'publish',
 						'posts_per_page' => '5',
 							)
