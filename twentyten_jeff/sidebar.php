@@ -29,20 +29,13 @@
 						'posts_per_page' => '5',
 							)
 						);
-					/*
-					 - Gets three stories based on a specific category name which is passed into the 'category_name' parameter
-					- Use 'tag__not_in' parameter to exclude posts with feature and featured-secondary tag.
-					   But this argument selects an array of tag ids, not names. So we need to use the get_term_by function to extract the tag id, using the name.
-					- Template tags used: the_permalink() and  the_title()
-					*/
-
-
+				
 
 					//start the loop
 					while ( $author_query ->have_posts() ) : $author_query ->the_post();
 					// put your html under here
 				?>
-				<li><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></li>
+	<li><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></li>
 
 					<?php
 					endwhile;
@@ -67,9 +60,9 @@
 						);
 
 					/*
-					-  Return 1 post which acts as nothing more than a placeholder for our picture of the day. Use 'picoftheday' tag.
-					- Template tags used: the_permalink() and  the_post_thumbnail(), the_content()
-					- the_post_thumbnail() has a custom size defined in functions.php
+-  Return 1 post which acts as nothing more than a placeholder for our picture of the day. Use 'picoftheday' tag.
+- Template tags used: the_permalink() and  the_post_thumbnail(), the_content()
+- the_post_thumbnail() has a custom size defined in functions.php
 					- put the cutline in the the_content() instead of the_excerpt(), which in a lot of themes have 'continue reading' type links attached to it.
 					*/
 					//start the loop
@@ -90,12 +83,8 @@
 		<li id="recent-posts-2" class="widget-container widget_recent_entries">
 			<h3 class="widget-title">By publisher</h3>
 			<ul>
-
-				<li><a href="<?php echo home_url(); ?>/dc">DC</a></li>
-				<li><a href="<?php echo home_url(); ?>/marvel">Marvel</a></li>
-
-
-
+				<li><a href="<?php echo home_url() ?>/dc">DC</a></li>
+				<li><a href="<?php echo home_url() ?>/marvel">Marvel</a></li>
 			</ul>
 		</li>
 	</ul>

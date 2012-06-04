@@ -1,4 +1,4 @@
-
+		
 <div class='featured thoughtbox'><!-- Loop # 1 start - the featured story -->
 <?php
 // Create an instance of WP query
@@ -15,7 +15,7 @@ $featured = new WP_Query(
 - post_status should almost always be set to publish.
 - posts per page is set to 1 so we're only returning one post in this case.
 - Using a large image aligned to the right so the copy can sit on the left.
-- template tags used: the_permalink, the_title, the_post_thumbnail, the_excerpt
+- template tags used: the_permalink, the_title, the_post_thumbnail(featured image), the_excerpt(55 words and link)
 */
 
 while ( $featured->have_posts() ) : $featured->the_post();
@@ -63,7 +63,8 @@ $i = 0;
 while ( $secondary_featured->have_posts() ) : $secondary_featured ->the_post();
 	//add a counter each time so we can keep track of the posts
 	$i++;
-	//if the post counter is equal to zero, which is the first one, align it to the left, otherwise align it to the right
+	//tick the value up each time so we know which number post we're on.
+	
 	if ($i%2) {
 			$align = "alignleft";
 		} else {
@@ -112,7 +113,7 @@ wp_reset_postdata();		// Important: Put your toys away when you're done
 	//end the loop
 	wp_reset_postdata();
 ?>
-	&bull; <strong><a href="/category/batman">More Batman</a></strong><br>
+	&bull; <strong><a href="<?php echo home_url() ?>/category/batman">More Batman</a></strong><br>
 	</div>
 	<div id="superman" class="thoughtbox">
 		<h4>Superman</h4>
@@ -140,7 +141,7 @@ wp_reset_postdata();		// Important: Put your toys away when you're done
 	//end the loop
 	wp_reset_postdata();
 ?>
-	&bull; <strong><a href="/category/superman">More Superman</a></strong><br>
+	&bull; <strong><a href="<?php echo home_url() ?>/category/superman">More Superman</a></strong><br>
 
 	</div>
 	<div id="spiderman" class="thoughtbox">
@@ -155,7 +156,7 @@ wp_reset_postdata();		// Important: Put your toys away when you're done
 			'tag__not_in' => array(				// Avoid duplicates
 					get_term_by('slug','featured', 'post_tag')->term_id,
 					get_term_by('slug','featured-secondary', 'post_tag')->term_id
-				),
+				),		
 			)
 		);
 // - Gets three stories based on a specific category name which is passed into the 'category_name' parameter
@@ -173,7 +174,7 @@ wp_reset_postdata();		// Important: Put your toys away when you're done
 	//end the loop
 	wp_reset_postdata();			// Reset!
 ?>
-	&bull; <strong><a href="/category/spiderman">More Spiderman</a></strong><br>
+	&bull; <strong><a href="<?php echo home_url() ?>/category/spiderman">More Spiderman</a></strong><br>
 
 	</div>
 	<div id="wonderwoman" class="thoughtbox">
@@ -202,7 +203,7 @@ wp_reset_postdata();		// Important: Put your toys away when you're done
 	//end the loop
 	wp_reset_postdata();
 ?>
-	&bull; <strong><a href="/category/wonder-woman">More Wonder Woman</a></strong><br>
+	&bull; <strong><a href="<?php echo home_url() ?>/category/wonder-woman">More Wonder Woman</a></strong><br>
 
 	</div>
 
@@ -233,7 +234,7 @@ wp_reset_postdata();		// Important: Put your toys away when you're done
 	//end the loop
 	wp_reset_postdata();
 ?>
-	&bull; <strong><a href="/category/catwoman">More Catwoman</a></strong><br>
+	&bull; <strong><a href="<?php echo home_url() ?>/category/catwoman">More Catwoman</a></strong><br>
 
 	</div>
 
@@ -264,7 +265,7 @@ wp_reset_postdata();		// Important: Put your toys away when you're done
 	//end the loop
 	wp_reset_postdata();
 ?>
-	&bull; <strong><a href="/category/avengers">More Avengers</a></strong><br>
+	&bull; <strong><a href="<?php echo home_url() ?>/category/avengers">More Avengers</a></strong><br>
 
 	</div>
 </div>
