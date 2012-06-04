@@ -91,8 +91,8 @@
 			<h3 class="widget-title">By publisher</h3>
 			<ul>
 
-				<li><a href="/dc">DC</a></li>
-				<li><a href="/marvel">Marvel</a></li>
+				<li><a href="<?php echo home_url(); ?>/dc">DC</a></li>
+				<li><a href="<?php echo home_url(); ?>/marvel">Marvel</a></li>
 
 
 
