@@ -65,10 +65,10 @@ while ( $secondary_featured->have_posts() ) : $secondary_featured ->the_post();
 	$i++;
 	//tick the value up each time so we know which number post we're on.
 	
-	if ($i%2) {
-			$align = "alignleft";
-		} else {
+	if ($i%2 == 0) {
 			$align = "alignright";
+		} else {
+			$align = "alignleft";
 			}
 	// put your html under here
 	 ?>
