@@ -1,4 +1,4 @@
-		
+
 <div class='featured thoughtbox'><!-- Loop # 1 start - the featured story -->
 <?php
 // Create an instance of WP query
@@ -6,7 +6,6 @@
 $featured = new WP_Query(
 		array(
 		'tag' => 'featured',			// This is the 'tag' I want
-		'post_status' => 'publish',		// Only published content
 		'posts_per_page' => '1',		// Only one 'featured' article
 		)
 			 );
@@ -46,7 +45,6 @@ wp_reset_postdata(); 		// Important: Put your toys away when you're done
 $secondary_featured = new WP_Query(
 	array(
 	'tag' => 'featured-secondary',		// Only pick up these 'tags'
-	'post_status' => 'publish',			// Again, only published stories
 	'posts_per_page' => '2',			// We only have two spots for these
 	)
 		 );
@@ -64,7 +62,7 @@ while ( $secondary_featured->have_posts() ) : $secondary_featured ->the_post();
 	//add a counter each time so we can keep track of the posts
 	$i++;
 	//tick the value up each time so we know which number post we're on.
-	
+
 	if ($i%2 == 0) {
 			$align = "alignright";
 		} else {
@@ -94,7 +92,6 @@ wp_reset_postdata();		// Important: Put your toys away when you're done
 	$batman_query = new WP_Query(
 		array(
 			'category_name' => 'batman',
-			'post_status' => 'publish',
 			'posts_per_page' => '3',
 			'tag__not_in' => array(
 					get_term_by('slug','featured', 'post_tag')->term_id,
@@ -122,7 +119,6 @@ wp_reset_postdata();		// Important: Put your toys away when you're done
 	$superman_query = new WP_Query(
 		array(
 			'category_name' => 'superman',
-			'post_status' => 'publish',
 			'posts_per_page' => '3',
 			'tag__not_in' => array(
 					get_term_by('slug','featured', 'post_tag')->term_id,
@@ -151,12 +147,11 @@ wp_reset_postdata();		// Important: Put your toys away when you're done
 	$spiderman_query = new WP_Query(
 		array(
 			'category_name' => 'spiderman',		// I only want spiderman!
-			'post_status' => 'publish',
 			'posts_per_page' => '3',			// We only need three
 			'tag__not_in' => array(				// Avoid duplicates
 					get_term_by('slug','featured', 'post_tag')->term_id,
 					get_term_by('slug','featured-secondary', 'post_tag')->term_id
-				),		
+				),
 			)
 		);
 // - Gets three stories based on a specific category name which is passed into the 'category_name' parameter
@@ -184,7 +179,6 @@ wp_reset_postdata();		// Important: Put your toys away when you're done
 	$wonderwoman_query = new WP_Query(
 		array(
 			'category_name' => 'wonder-woman',
-			'post_status' => 'publish',
 			'posts_per_page' => '3',
 			'tag__not_in' => array(
 					get_term_by('slug','featured', 'post_tag')->term_id,
@@ -215,7 +209,6 @@ wp_reset_postdata();		// Important: Put your toys away when you're done
 	$catwoman_query = new WP_Query(
 		array(
 			'category_name' => 'catwoman',
-			'post_status' => 'publish',
 			'posts_per_page' => '3',
 			'tag__not_in' => array(
 					get_term_by('slug','featured', 'post_tag')->term_id,
@@ -246,7 +239,6 @@ wp_reset_postdata();		// Important: Put your toys away when you're done
 	$avengers_query = new WP_Query(
 		array(
 			'category_name' => 'avengers',
-			'post_status' => 'publish',
 			'posts_per_page' => '3',
 			'tag__not_in' => array(
 					get_term_by('slug','featured', 'post_tag')->term_id,
