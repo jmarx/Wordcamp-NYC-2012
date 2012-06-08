@@ -57,7 +57,7 @@ $secondary_featured = new WP_Query(
 // - template tags used: the_permalink, the_title, the_post_thumbnail, the_excerpt
 
 //post counter
-$i = 0;
+$i = 0;    // Not used for the loop, but to cycle styles with css
 
 //start the loop
 while ( $secondary_featured->have_posts() ) : $secondary_featured ->the_post();
@@ -144,6 +144,8 @@ wp_reset_postdata();		// Important: Put your toys away when you're done
 	&bull; <strong><a href="<?php echo home_url() ?>/category/superman">More Superman</a></strong><br>
 
 	</div>
+
+	
 	<div id="spiderman" class="thoughtbox">
 		<h4>Spiderman</h4>
 						<?php
