@@ -29,7 +29,7 @@ while ( $featured->have_posts() ) : $featured->the_post();
 <?php
 endwhile;
 //end the loop
-wp_reset_postdata(); 		// Important: Put your toys away when you're done
+wp_reset_postdata(); 	// Important: Put your toys away when you're done
 ?>
 
 <div style="clear:both">&nbsp;</div>
@@ -63,11 +63,12 @@ while ( $secondary_featured->have_posts() ) : $secondary_featured ->the_post();
 	$i++;
 	//tick the value up each time so we know which number post we're on.
 
-	if ($i%2 == 0) {
-			$align = "alignright";
-		} else {
-			$align = "alignleft";
-			}
+	if ($i % 2 == 0) {
+		$align = "alignright";
+	} else {
+		$align = "alignleft";
+	}
+	
 	// put your html under here
 	 ?>
 	<div class="story thoughtbox">
@@ -143,7 +144,7 @@ wp_reset_postdata();		// Important: Put your toys away when you're done
 
 	
 	<div id="spiderman" class="thoughtbox">
-		<h4>Spiderman</h4>
+		<h4>Spider-man</h4>
 						<?php
 	// The class instantiation with arguments
 	$spiderman_query = new WP_Query(
@@ -171,7 +172,7 @@ wp_reset_postdata();		// Important: Put your toys away when you're done
 	//end the loop
 	wp_reset_postdata();			// Reset!
 ?>
-	&bull; <strong><a href="<?php echo home_url() ?>/category/spiderman">More Spiderman</a></strong><br>
+	&bull; <strong><a href="<?php echo home_url() ?>/category/spiderman">More Spider-man</a></strong><br>
 
 	</div>
 	<div id="wonderwoman" class="thoughtbox">
