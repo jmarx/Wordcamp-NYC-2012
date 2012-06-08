@@ -25,11 +25,10 @@
 					$author_query = new WP_Query(
 						array(
 						'author_name' => 'alex',	// Most trusted news source
-						'post_status' => 'publish',
 						'posts_per_page' => '5',
 							)
 						);
-				
+
 
 					//start the loop
 					while ( $author_query ->have_posts() ) : $author_query ->the_post();
@@ -54,7 +53,6 @@
 					$pic_query = new WP_Query(
 						array(
 						'tag' => 'picoftheday',
-						'post_status' => 'publish',
 						'posts_per_page' => '1',
 							)
 						);
