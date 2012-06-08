@@ -68,16 +68,16 @@ while ( $secondary_featured->have_posts() ) : $secondary_featured ->the_post();
 	} else {
 		$align = "alignleft";
 	}
-	
+
 	// put your html under here
 	 ?>
 	<div class="story thoughtbox">
-	<div>
-		<?php the_post_thumbnail('thumbnail', array('class' => $align)); ?>
-		<h3 style="display:inline;"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-		<div class="excerpt"><?php the_excerpt(); ?></div>
-	</div>
-	<div style="clear:both; height:3px;">&nbsp;</div>
+		<div>
+			<?php the_post_thumbnail('thumbnail', array('class' => $align)); ?>
+			<h3 style="display:inline;"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+			<div class="excerpt"><?php the_excerpt(); ?></div>
+		</div>
+		<div style="clear:both; height:3px;">&nbsp;</div>
 	</div>
  <?php
 endwhile;
@@ -142,7 +142,7 @@ wp_reset_postdata();		// Important: Put your toys away when you're done
 
 	</div>
 
-	
+
 	<div id="spiderman" class="thoughtbox">
 		<h4>Spider-man</h4>
 						<?php
@@ -165,7 +165,7 @@ wp_reset_postdata();		// Important: Put your toys away when you're done
 	while ( $spiderman_query->have_posts() ) : $spiderman_query->the_post();
 	// put your html under here
 ?>
-	&bull; <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> <br>
+		&bull; <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> <br>
 
 <?php
 	endwhile;
@@ -193,14 +193,14 @@ wp_reset_postdata();		// Important: Put your toys away when you're done
 	while ( $wonderwoman_query->have_posts() ) : $wonderwoman_query->the_post();
 	// put your html under here
 ?>
-	&bull; <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> <br>
+		&bull; <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> <br>
 
 <?php
 	endwhile;
 	//end the loop
 	wp_reset_postdata();
 ?>
-	&bull; <strong><a href="<?php echo home_url() ?>/category/wonder-woman">More Wonder Woman</a></strong><br>
+		&bull; <strong><a href="<?php echo home_url() ?>/category/wonder-woman">More Wonder Woman</a></strong><br>
 
 	</div>
 
@@ -223,14 +223,14 @@ wp_reset_postdata();		// Important: Put your toys away when you're done
 	while ( $catwoman_query->have_posts() ) : $catwoman_query->the_post();
 	// put your html under here
 ?>
-	&bull; <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> <br>
+		&bull; <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> <br>
 
 <?php
 	endwhile;
 	//end the loop
 	wp_reset_postdata();
 ?>
-	&bull; <strong><a href="<?php echo home_url() ?>/category/catwoman">More Catwoman</a></strong><br>
+		&bull; <strong><a href="<?php echo home_url() ?>/category/catwoman">More Catwoman</a></strong><br>
 
 	</div>
 
@@ -253,14 +253,14 @@ wp_reset_postdata();		// Important: Put your toys away when you're done
 	while ( $avengers_query->have_posts() ) : $avengers_query->the_post();
 	// put your html under here
 ?>
-	&bull; <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> <br>
+		&bull; <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> <br>
 
 <?php
 	endwhile;
 	//end the loop
 	wp_reset_postdata();
 ?>
-	&bull; <strong><a href="<?php echo home_url() ?>/category/avengers">More Avengers</a></strong><br>
+		&bull; <strong><a href="<?php echo home_url() ?>/category/avengers">More Avengers</a></strong><br>
 
 	</div>
 </div>
