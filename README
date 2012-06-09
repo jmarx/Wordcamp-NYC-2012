@@ -22,3 +22,13 @@ email: jeffmarx@gmail.com
 Alex
 twitter: @asapountzis 
 email: alexander.sapountzis@gmail.com
+
+Links:
+
+http://codex.wordpress.org/Function_Reference/query_posts
+http://codex.wordpress.org/Function_Reference/get_posts
+http://codex.wordpress.org/Class_Reference/WP_Query
+http://wordpress.org/extend/plugins/wp-super-cache/
+http://wordpress.org/extend/plugins/w3-total-cache/
+http://codex.wordpress.org/Transients_API
+
